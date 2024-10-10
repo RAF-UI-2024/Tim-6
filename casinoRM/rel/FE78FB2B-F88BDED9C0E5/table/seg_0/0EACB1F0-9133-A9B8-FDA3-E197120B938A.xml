@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EACB1F0-9133-A9B8-FDA3-E197120B938A" name="TABLE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>D427D612-5818-3E3C-B8D0-2AE3A40D0B95</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="table_id" id="100BCC33-4DFE-FAC2-76B0-0BECBFF81A1C">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>88FFC8C3-0DB9-EC1C-4427-D4264CEAA2BE</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="FFD78054-C0FD-AE3B-33F4-18153806861F">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>858330D2-DAB9-6A78-E597-EF249C7F3C1D</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="casino_id" id="CC94ACC7-6DE7-344B-A756-F9350A6F4B6B">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 17:10:08 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>76A92BEF-7245-9398-0E24-458A4D2123EA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41CB641D-4279-A569-F308-55A323478506" referredColumn="76A92BEF-7245-9398-0E24-458A4D2123EA"/>
+</associations>
+</Column>
+<Column name="croupier_id" id="5BC554AB-1AF2-3173-7485-D886225535E5">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 17:11:36 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F359D70B-53F8-4221-7A34-2DD9B2424AEA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69807933-69BC-331A-B1AD-C827998CAFE0" referredColumn="F359D70B-53F8-4221-7A34-2DD9B2424AEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B02AFF4-7FF8-706E-F3F2-08D07AED9F4C" name="TABLE_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="100BCC33-4DFE-FAC2-76B0-0BECBFF81A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3434514D-5F6C-1A5C-83AE-049B573E6213" name="TABLE_CASINO_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>EE4D8D79-1971-0E96-C42C-2A9631951AAA</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC94ACC7-6DE7-344B-A756-F9350A6F4B6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E37C991C-0FCA-CEEB-2201-5E1239A39AB1" name="TABLE_CROUPIER_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>1B954823-5099-466B-F08D-D6B2B722908C</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BC554AB-1AF2-3173-7485-D886225535E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

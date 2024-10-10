@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F0AE9DB-F688-2E18-656D-C408AD92F1AC" name="CROUPIER">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>4CC6B1A2-AA89-6241-AD81-968FE447A2D3</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="croupier_id" id="F359D70B-53F8-4221-7A34-2DD9B2424AEA">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>1B91057B-0949-5A0E-14CD-40B816CC89C3</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4F95F63D-7F60-15C7-4BEC-81363FD3E383">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>56ACF75A-837F-5061-DBC6-E687616E3753</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shift" id="BF0A85F8-CD42-7E6B-2E64-96C173D77F39">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>537188E5-11B9-5A08-B048-77B5C20553A1</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="experience_level" id="CABF7917-3494-CFCC-5B85-9D405F3A099F">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>474A3DF9-6F21-0576-D0A5-EF6D02A71AC0</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="casino_id" id="A4D16AE5-88B8-0135-C4B5-4A189D0BEAC9">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>CEB38A67-F9C3-EB49-F1FD-E2DC3DF261DE</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>76A92BEF-7245-9398-0E24-458A4D2123EA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9DE34BB-4B4C-1C3C-59CC-8430B5A8213C" referredColumn="76A92BEF-7245-9398-0E24-458A4D2123EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E243BA9-7DB9-68A8-C070-DF3E3105F594" name="CROUPIER_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F359D70B-53F8-4221-7A34-2DD9B2424AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB789283-0665-D818-89B8-A29FDEC24CF7" name="CROUPIER_CASINO_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>92696BBB-E00D-00C7-0FDA-AD94629950E5</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D16AE5-88B8-0135-C4B5-4A189D0BEAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

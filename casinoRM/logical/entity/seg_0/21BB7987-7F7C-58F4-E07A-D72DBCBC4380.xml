@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21BB7987-7F7C-58F4-E07A-D72DBCBC4380" name="GAME_HISTORY">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:04:24 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="player_id" id="B5FC9CDA-6F44-F886-B6C4-CA9A0297E21A">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:38:36 UTC</createdTime>
+<generatorID>2E60B875-4B31-9777-91DE-F43BA411D0CA</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<referedAttribute>E1A29E69-7A19-9CFA-7074-331E0EF900DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="game_id" id="6EC392A9-D142-6465-3FCA-240C32783E05">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:39:42 UTC</createdTime>
+<generatorID>11238038-69C2-1E34-73A5-7536226BF226</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<referedAttribute>116BF2BB-6131-4B9A-1B3C-B528D9B728E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hand_size" id="258E4373-0EB3-282F-906E-32BB7EFAE87C">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:43:16 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Attribute>
+<Attribute name="date_time" id="E1CE0FC0-E40A-7753-70A5-BAFA3325AC63">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:44:19 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7D742D9-E63F-27B6-F21F-810BBA2FEB3D" name="{entity} PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:36:01 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5FC9CDA-6F44-F886-B6C4-CA9A0297E21A</attributeRef>
+<attributeRef>6EC392A9-D142-6465-3FCA-240C32783E05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

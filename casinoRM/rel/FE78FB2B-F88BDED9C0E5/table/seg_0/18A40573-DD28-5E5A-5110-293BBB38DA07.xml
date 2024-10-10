@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A40573-DD28-5E5A-5110-293BBB38DA07" name="CASINO">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>1936717E-B52B-5587-E8EB-56F940E82209</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="casino_id" id="76A92BEF-7245-9398-0E24-458A4D2123EA">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>93A71E2F-BEB2-4650-AB7D-A08CC7E92F37</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3C8B53F5-44C6-0042-7442-32B9197DE164">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>4471371C-9B30-E4B9-F23B-F2CB1DDC4DF8</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="60017343-A9E3-19D4-D784-CB6071E0A19B">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>08FCDFCB-FF2D-A4D7-166C-47C5B850E074</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="F711227F-FFA4-592E-D713-9AF7645BF221">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:56:08 UTC</createdTime>
+<generatorID>A578FE23-94FA-BE3A-0962-AEE47CCD8D71</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53737D0F-376E-65CB-DACF-65899E9B9645" name="CASINO_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="76A92BEF-7245-9398-0E24-458A4D2123EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

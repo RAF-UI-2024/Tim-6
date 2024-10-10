@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9DE34BB-4B4C-1C3C-59CC-8430B5A8213C" name="CROUPIER_CASINO_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:29:16 UTC</createdTime>
+<generatorID>92696BBB-E00D-00C7-0FDA-AD94629950E5</generatorID>
+<ownerDesignName>casinoRM</ownerDesignName>
+<containerWithKeyObject>2F0AE9DB-F688-2E18-656D-C408AD92F1AC</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>CB789283-0665-D818-89B8-A29FDEC24CF7</localFKIndex>
+<keyObject>53737D0F-376E-65CB-DACF-65899E9B9645</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

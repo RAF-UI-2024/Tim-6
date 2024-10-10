@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has" directorySegmentName="seg_0" id="92696BBB-E00D-00C7-0FDA-AD94629950E5">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-10-07 16:13:25 UTC</createdTime>
+<ownerDesignName>casinoRM</ownerDesignName>
+<engineerTo>
+<item key="FE78FB2B-B36F-3F5F-6DC8-F88BDED9C0E5" value="true"/>
+</engineerTo>
+<sourcePk>CC8BB78C-3260-BF49-094A-5ADB4854BA5A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1936717E-B52B-5587-E8EB-56F940E82209</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CC6B1A2-AA89-6241-AD81-968FE447A2D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

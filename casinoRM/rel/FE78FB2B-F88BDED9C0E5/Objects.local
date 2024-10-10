@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0EACB1F0-9133-A9B8-FDA3-E197120B938A" name="TABLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="18A40573-DD28-5E5A-5110-293BBB38DA07" name="CASINO" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F0AE9DB-F688-2E18-656D-C408AD92F1AC" name="CROUPIER" seqName="seg_0"/>
+   <object objectType="Table" objectID="47848335-6B07-37C8-C4F1-5426A7B7FE94" name="GAME" seqName="seg_0"/>
+   <object objectType="Table" objectID="8DBB5D35-2389-A0BA-53E1-9655751E6681" name="PLAYER" seqName="seg_0"/>
+   <object objectType="Table" objectID="9255A13B-4021-876F-6958-A0A03A56595E" name="GAME_MACHINE" seqName="seg_0"/>
+   <object objectType="Table" objectID="B63B064A-0A60-BEDF-1415-0AFC9FFC2E20" name="GAME_HISTORY" seqName="seg_0"/>
+   <object objectType="Table" objectID="E8473D4A-EECA-F4DF-ABF3-E07D6E9C4EA0" name="GAME_TABLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="F971AC6E-34BE-EF72-7818-EF539A9B5D7D" name="MACHINE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0F67B044-7855-F0CE-3359-27918511EAA7" name="GAME_TABLE_TABLE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21377F5B-69B3-3AC9-9C5B-48D18E01C54B" name="GAME_HISTORY_PLAYER_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2D2596D5-BCF5-3185-AE63-F5FC27CDAB00" name="MACHINE_CASINO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="41CB641D-4279-A569-F308-55A323478506" name="TABLE_CASINO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="69807933-69BC-331A-B1AD-C827998CAFE0" name="TABLE_CROUPIER_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BAC3169C-9655-C7FA-7B0C-B6251F46D999" name="GAME_MACHINE_GAME_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C9DE34BB-4B4C-1C3C-59CC-8430B5A8213C" name="CROUPIER_CASINO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E9914D93-B48D-3947-372C-F5812E8403AB" name="GAME_HISTORY_GAME_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ECF3BE04-5A5B-FE93-B5C8-488D975C20B6" name="GAME_MACHINE_MACHINE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F4912F7C-8446-8EA0-D7FB-A6ED9C544F72" name="GAME_TABLE_GAME_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
