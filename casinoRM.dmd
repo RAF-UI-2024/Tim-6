@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="casinoRM" id="CBCCDA90-6437-EFF5-5D40-FC30BF6ADBFD" version="3.5">
-<createdBy>Andrej</createdBy>
-<createdTime>2024-10-07 15:39:14 UTC</createdTime>
-<ownerDesignName>casinoRM</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>CBCCDA90-6437-EFF5-5D40-FC30BF6ADBFD</designId>
-</OSDM_Design>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16A6446-7E0E-32A7-DAFE-46F28410EB47" name="GAME ROUND">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:45:55 UTC</createdTime>
+<ownerDesignName>uiw3</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="game round id" id="1ED7D059-2715-9CF0-0ED9-4DA41B93947C">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:46:13 UTC</createdTime>
+<ownerDesignName>uiw3</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="game launch id" id="143FB4B7-5EBC-B4EB-844D-68CD1DB32843">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:46:47 UTC</createdTime>
+<generatorID>B8619FB8-268A-51BC-413B-90BE90F15F65</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>E6C0441C-5DA7-17B5-A5BA-C4ADDCF9C876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="win" id="EFB2E74C-0D6A-8D3E-352A-CDF2E9FA93ED">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:46:26 UTC</createdTime>
+<ownerDesignName>uiw3</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BB39E49-729A-5BCD-9725-1D5C25216909" name="GAME_ROUND_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:46:24 UTC</createdTime>
+<ownerDesignName>uiw3</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1ED7D059-2715-9CF0-0ED9-4DA41B93947C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

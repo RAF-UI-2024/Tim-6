@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94EE5194-3AB3-4291-0708-D32BA277F751" name="ACCOUNT_BONUS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>31306589-4FA4-E1D1-0FAF-F2E31E36BAAD</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bonus_id" id="1C8267F0-C9D2-1263-3891-8703B4635459">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>CD8FEB3F-B093-3324-A8B8-92F59DA8766A</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6728E7F8-5B9B-38CD-AC2F-BA9B295D58DE" referredColumn="B579BE07-7894-A555-B32C-6A440738251A"/>
+</associations>
+</Column>
+<Column name="account_id" id="65F30538-D875-803C-7139-7713919FE651">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>CE0A8AFF-A87A-4ADE-7F31-A93640E22A5D</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E261085B-815F-F673-E477-4B4142D0F2BE" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9876BB68-A0F5-A544-FBAC-6743CD050507" name="ACCOUNT_BONUS_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:59:01 UTC</createdTime>
+<ownerDesignName>uiw3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C8267F0-C9D2-1263-3891-8703B4635459"/>
+<colUsage columnID="65F30538-D875-803C-7139-7713919FE651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE851345-BDDB-45D8-1076-02149A92E543" name="ACCOUNT_BONUS_BONUS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>99E7A5E7-F9D0-F2C4-03F7-5A7E81BA55C3</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C8267F0-C9D2-1263-3891-8703B4635459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="565398A9-D67A-E75A-B6E3-8C79C991AF5B" name="ACCOUNT_BONUS_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>EC8E3363-640D-5737-72B7-01312A49B599</generatorID>
+<ownerDesignName>uiw3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F30538-D875-803C-7139-7713919FE651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
