@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="103FD3F4-6B49-4245-4152-653A9C71641B" name="DOCUMENT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>35808C1B-712E-E633-51B2-77C0E9815A1A</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="17BE76E8-258F-D4D7-DA28-925A3BD82BA2">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>26E9D0B5-264A-65EA-8C83-4E3593730293</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="document_number" id="F49CF6E1-2EB6-F165-9DB9-F33A325815BC">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>3ED7F1BF-5FF4-9DBD-A211-D1185FC3F5D9</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="verification_status" id="0AB72CC9-F218-033D-9848-2780049A9B56">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-16 20:28:12 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="985B43A5-2465-6F3D-CE1C-A48E13A0BE4A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>73967803-9D6D-F1CC-CC0D-43CD8E723BA0</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0607E7F-ACF7-B13C-735E-AEEED722E716" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F003CD3B-D6CD-96F0-8AE3-E06DB24AE721" name="DOCUMENT_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>34B3470C-A630-C41C-325B-0569F9EC8DE2</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BE76E8-258F-D4D7-DA28-925A3BD82BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C56C9955-8D92-2A31-07DB-AED187779B29" name="DOCUMENT_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>7CF04C47-62E0-55F3-2A96-AAB684F2C7D0</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985B43A5-2465-6F3D-CE1C-A48E13A0BE4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

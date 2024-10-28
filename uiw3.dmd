@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="uiw3" id="7AE91656-1312-AF21-23FC-83002C0B0403" version="3.5">
-<createdBy>tijan</createdBy>
-<createdTime>2024-10-13 17:36:31 UTC</createdTime>
-<ownerDesignName>uiw3</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>7AE91656-1312-AF21-23FC-83002C0B0403</designId>
-</OSDM_Design>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86CDC770-5274-D021-80FA-F4C9CB5BE0FC" name="WITHDRAW">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>D815D356-E55E-9B7C-C7C6-926405321DC4</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="1FA75CFA-656B-2261-959C-B31FD2F52060">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>52FCB903-61DF-B747-9D6C-3FB990CCB00E</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="534F529D-A8EC-5148-AE24-ED778BB1E3D8" referredColumn="A1113692-E4DE-11F7-35B7-E8D46BDEE3FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9D18003-6D43-2115-4029-08F4133BF0F0" name="WITHDRAW_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>3FDCA71E-95DA-0C4C-DFE8-5A3979966342</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FA75CFA-656B-2261-959C-B31FD2F52060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91E4A499-B458-558D-7C3C-6B65CCB3C7DF" name="WITHDRAW_TRANSACTION_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>6B9D95C4-E809-0A64-BD21-4B066062035C</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FA75CFA-656B-2261-959C-B31FD2F52060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
