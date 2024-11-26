@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPLAINTS_ACCOUNT_FK" directorySegmentName="seg_0" id="84623268-F02F-652F-AF30-324F9ADFDC50">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>F5DA3F7F-62E7-CCFA-4D75-461AAF1D2D5B</generatorID>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>04062ADD-5BD3-DA2D-A87D-B87411D7905C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97BA3023-6E19-B388-3738-90BD38E162FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

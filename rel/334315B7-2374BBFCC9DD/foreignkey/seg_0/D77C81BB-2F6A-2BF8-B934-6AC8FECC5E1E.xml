@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D77C81BB-2F6A-2BF8-B934-6AC8FECC5E1E" containerWithKeyObject="75E61F11-1819-F33A-D3BD-6F4999FD79D8" localFKIndex="FAC9F985-EDFE-3013-F188-CA5B4E7AAB02" name="USER_ACHIEVMENTS_ACHIEVMENT_TYPES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 20:29:17 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<referredTableLongName>ACHIEVMENT_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED489035-93A3-3A5B-B1EB-64118F734898</referredTableID>
+<keyObject>39CA678F-B203-B7CC-47B1-F5AB84749F4E</keyObject>
+<referredKeyID>39CA678F-B203-B7CC-47B1-F5AB84749F4E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>achievment_types_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

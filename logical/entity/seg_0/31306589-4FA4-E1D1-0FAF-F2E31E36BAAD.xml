@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31306589-4FA4-E1D1-0FAF-F2E31E36BAAD" name="ACCOUNT BONUS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:38:25 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bonus_id" id="CD8FEB3F-B093-3324-A8B8-92F59DA8766A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:39:16 UTC</createdTime>
+<generatorID>99E7A5E7-F9D0-F2C4-03F7-5A7E81BA55C3</generatorID>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>A4DCD29A-19BB-FC70-4FD6-44875EF9DB61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account id" id="CE0A8AFF-A87A-4ADE-7F31-A93640E22A5D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:39:34 UTC</createdTime>
+<generatorID>EC8E3363-640D-5737-72B7-01312A49B599</generatorID>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>2258768A-3338-C12D-4AF6-0B90EACD67B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A88B2509-C3DA-7FE0-2CBC-8378703BEE13" name="ACCOUNT BONUS PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 20:15:16 UTC</createdTime>
+<generatorID>9876BB68-A0F5-A544-FBAC-6743CD050507</generatorID>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD8FEB3F-B093-3324-A8B8-92F59DA8766A</attributeRef>
+<attributeRef>CE0A8AFF-A87A-4ADE-7F31-A93640E22A5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

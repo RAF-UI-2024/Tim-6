@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38BB48C6-9323-EBE0-5DB3-9F1D8C7427B6" name="REFERRAL_CODE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:10:49 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="referral_code_id" id="D7DDA676-0D93-8564-5E64-706A093A6304">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:15:52 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="928D36CD-3239-060E-BE1F-70DF894A92BA">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:15:52 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="5729A823-4754-0A79-FB82-2ECB497E6BED">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:16:46 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="B3A8D3E5-8302-4E46-7406-EFBF0E3EEE4E">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:15:52 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F7B411D-0A80-866F-1624-7FDFCA5B9918" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EB3CCB6-55C1-8682-A353-1770BACFA3A1" name="REFERRAL_CODE_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:15:52 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DDA676-0D93-8564-5E64-706A093A6304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F92F740-32B1-2AEB-8A9B-81937C5E966F" name="REFERRAL_CODE_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:15:52 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3A8D3E5-8302-4E46-7406-EFBF0E3EEE4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

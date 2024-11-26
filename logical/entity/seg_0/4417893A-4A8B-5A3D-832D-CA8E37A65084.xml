@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4417893A-4A8B-5A3D-832D-CA8E37A65084" name="TRANSACTION">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 17:54:29 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction id" id="5A572414-DD6D-0F85-E197-09537EDF459A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:04:36 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="35BF6CDA-EEAE-242C-4155-AED172CF8A3B">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:50:48 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date time" id="4EB039F5-B7EA-E2FB-D167-E8840181CCE0">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:51:05 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account id" id="3710DEFA-2ADC-DFBA-2A2F-685914DF3FE3">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:34:39 UTC</createdTime>
+<generatorID>A017F4AF-7C92-4F93-952D-8D0BF37077CF</generatorID>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>2258768A-3338-C12D-4AF6-0B90EACD67B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B22671D4-DD89-0DF8-8198-4178AF620826" name="TRANSACTION PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:08:33 UTC</createdTime>
+<ownerDesignName>Onlinecasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A572414-DD6D-0F85-E197-09537EDF459A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
