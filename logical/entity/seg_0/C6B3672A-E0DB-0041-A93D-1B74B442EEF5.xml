@@ -2,7 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6B3672A-E0DB-0041-A93D-1B74B442EEF5" name="DEPOSIT LIMIT">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:54:01 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -18,7 +22,11 @@
 <Attribute name="dodatno polje" id="6561A6A5-B496-0D7F-EB79-A6E32E1F3F3A">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:54:25 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -33,7 +41,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:57:58 UTC</createdTime>
 <generatorID>D4D39242-2086-E885-D89E-F4DC4DF0CD5F</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -48,7 +60,11 @@
 <identifier id="767BEA70-1D1D-CE4C-3EC1-DEBF15D839D9" name="DEPOSIT_LIMIT_PK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:54:38 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -58,4 +74,8 @@
 </usedAttributes>
 </identifier>
 </identifiers>
+<<<<<<< HEAD
 </Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

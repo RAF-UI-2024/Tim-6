@@ -3,7 +3,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:57:43 UTC</createdTime>
 <generatorID>B327C61D-A058-B74A-2E50-9A8E442CDE8E</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +16,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:57:43 UTC</createdTime>
 <generatorID>BC7DAFE1-1914-6B34-EC6C-28B16304E365</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -29,7 +37,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:57:43 UTC</createdTime>
 <generatorID>869312A1-7010-7491-05D0-B201FAD3DDAB</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -41,7 +53,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:57:44 UTC</createdTime>
 <generatorID>CC53501F-900E-A639-388B-03C3DAF94B6B</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -49,4 +65,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

@@ -3,7 +3,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:57:44 UTC</createdTime>
 <generatorID>0A28B212-9918-41E8-B38C-70B15D21F8FC</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <referredTableLongName>LIMIT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D29502CA-C532-BD77-EF7F-48DB99F99478</referredTableID>
@@ -14,4 +18,8 @@
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
 </FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

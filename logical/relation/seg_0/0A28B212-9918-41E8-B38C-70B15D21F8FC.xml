@@ -2,7 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOSS LIMIT LIMIT FK" directorySegmentName="seg_0" id="0A28B212-9918-41E8-B38C-70B15D21F8FC">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:58:05 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -16,4 +20,8 @@
 <targetEntity>A1F1E689-4F8F-FF81-5649-2B81F034421F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<<<<<<< HEAD
 </Relation>
+=======
+</Relation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

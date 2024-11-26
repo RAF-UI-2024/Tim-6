@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76156195-34A5-D4A8-AFF9-04C00F1F488D" name="FAVORITE_GAMES">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:14:10 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <ordsAlias>table_40</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +15,11 @@
 <Column name="favorite_id" id="95A9F02A-9240-45F4-8604-599B15C9A0EB">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:00 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +29,11 @@
 <Column name="account_id" id="08634B3D-BB48-ED6C-127D-E7D0064F6603">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:18 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -34,7 +46,11 @@
 <Column name="game_id" id="0CBE5B7C-E98E-47BE-9A0E-90AE98776498">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:27 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -49,7 +65,11 @@
 <ind_PK_UK id="E5C644D9-12BB-6287-983C-BDB130BAC758" name="FAVORITE_GAMES_PK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:00 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -60,7 +80,11 @@
 <ind_PK_UK id="FAD41D26-73B4-6D16-F0CF-7144DA716281" name="FAVORITE_GAMES_ACCOUNT_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:35 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -70,7 +94,11 @@
 <ind_PK_UK id="229A66E5-0878-E279-3C91-00E1E6AFB5E7" name="FAVORITE_GAMES_GAME_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:15:41 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -78,4 +106,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

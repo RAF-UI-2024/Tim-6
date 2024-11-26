@@ -2,7 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC4161D5-D85C-9274-1653-3DE2A15E02A8" name="DEPOSIT">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 17:46:06 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -18,7 +22,11 @@
 <Attribute name="deposit id" id="3C57100B-4128-1D97-AAD7-1EAE5F5FBF55">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 17:50:37 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -31,7 +39,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:14:22 UTC</createdTime>
 <generatorID>7CEEFA29-597B-1F39-7CB5-95F7C73E3CA6</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -45,7 +57,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:13:21 UTC</createdTime>
 <generatorID>4CEE611B-74DD-C5CC-4651-147F46C219F8</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -61,7 +77,11 @@
 <identifier id="0B13C143-94ED-2824-8729-0C3721848C57" name="DEPOSIT PK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:08:44 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -71,4 +91,8 @@
 </usedAttributes>
 </identifier>
 </identifiers>
+<<<<<<< HEAD
 </Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

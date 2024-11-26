@@ -2,7 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GAME PROVIDER FK" directorySegmentName="seg_0" id="4A8839E4-4AE2-9413-773A-2E1742F3AB27">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:37:14 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -16,4 +20,8 @@
 <targetEntity>F404FC41-3E25-7906-FA42-BCB1DAD256BA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<<<<<<< HEAD
 </Relation>
+=======
+</Relation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

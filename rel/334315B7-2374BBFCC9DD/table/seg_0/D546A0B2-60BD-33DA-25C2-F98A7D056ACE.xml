@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D546A0B2-60BD-33DA-25C2-F98A7D056ACE" name="VIP_MANAGER">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:55:08 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <ordsAlias>table_38</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +15,11 @@
 <Column name="character_id" id="E840EC29-566D-7D60-506B-4A80DDE0EADE">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:57:49 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,7 +35,11 @@
 <ind_PK_UK id="C9DA69CB-9125-62AE-8C98-9ADF512778AF" name="VIP_MANAGER_PK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:58:44 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -38,7 +50,11 @@
 <ind_PK_UK id="AFE2D76B-DD95-6C66-A03A-84729FA17C00" name="VIP_MANAGER_CHARACTER_FK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:57:49 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -46,4 +62,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

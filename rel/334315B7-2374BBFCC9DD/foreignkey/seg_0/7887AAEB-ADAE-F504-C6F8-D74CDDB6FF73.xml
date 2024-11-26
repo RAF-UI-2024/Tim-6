@@ -2,7 +2,11 @@
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7887AAEB-ADAE-F504-C6F8-D74CDDB6FF73" containerWithKeyObject="32942EDC-621E-8FBA-7851-F27FEC620821" localFKIndex="53944F7B-13AC-4A4A-6BF8-CEDCF0AD2040" name="PAYMENT_DOCUMENT_ACCOUNT_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:15:29 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <referredTableLongName>ACCOUNT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F7D051E3-6D54-07C0-6C9D-AC150F60B423</referredTableID>
@@ -13,4 +17,8 @@
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
 </FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

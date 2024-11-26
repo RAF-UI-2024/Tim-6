@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSPORT DOCUMENT FK" directorySegmentName="seg_0" id="F4D2AC6F-C5CC-F80B-ED59-194C85499DC5">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:13:02 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>34B3470C-A630-C41C-325B-0569F9EC8DE2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35808C1B-712E-E633-51B2-77C0E9815A1A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A381C74B-6664-B343-38C1-7DBCB8BC423F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

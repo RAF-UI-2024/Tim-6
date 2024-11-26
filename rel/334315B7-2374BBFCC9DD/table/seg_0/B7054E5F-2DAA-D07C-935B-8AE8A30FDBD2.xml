@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7054E5F-2DAA-D07C-935B-8AE8A30FDBD2" name="MOBILE">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:28:53 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -10,7 +14,11 @@
 <Column name="device_id" id="EA19B5A1-055B-F60A-FF22-21922D84842D">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +33,11 @@
 <ind_PK_UK id="5033A56F-D262-DC39-4BDE-81AC7A34B853" name="MOBILE_PK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -36,7 +48,11 @@
 <ind_PK_UK id="7C999787-47F1-4A95-3E24-CDD5A3E49D26" name="MOBILE_DEVICE_FK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -44,4 +60,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

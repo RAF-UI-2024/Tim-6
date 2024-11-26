@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F8DCB61-6F45-45FE-8F8D-524AF5B27927" name="CONFIGURATION">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:33:47 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <ordsAlias>table_32</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +15,11 @@
 <Column name="settings_id" id="C576A321-859B-C505-605D-EED3B7EF0402">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:34:13 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +29,11 @@
 <Column name="dark_mode" id="91699F0A-BA52-03C8-A1C3-746E7A33CBA9">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:34:40 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -32,7 +44,11 @@
 <Column name="account_id" id="F407F7E5-B466-B377-78D8-5CCA971F559F">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:35:19 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -45,7 +61,11 @@
 <Column name="LOCALE_locale_id" id="0900063B-345B-6CC5-AA41-FA2A67A457A2">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:34:26 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -61,7 +81,11 @@
 <ind_PK_UK id="EF5F3836-BB88-2E59-48C6-21AC700EBF0D" name="USER_PREFERENCES_PK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:34:13 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -72,7 +96,11 @@
 <ind_PK_UK id="CD8AB055-C403-9035-351C-52F14F2D41E8" name="USER_PREFERENCES_ACCOUNT_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:35:26 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -82,7 +110,11 @@
 <ind_PK_UK id="7B5C657F-DB08-E199-DA59-6121A4749C02" name="CONFIGURATION_LOCALE_FK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:34:26 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -90,4 +122,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

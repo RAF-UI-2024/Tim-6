@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1381FD18-A3F2-5F7A-38B9-6DA0CBF7ADF6" name="ACCOUNT_GIFT_CARD">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:34:30 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -10,7 +14,11 @@
 <Column name="account_id" id="2A6A47F9-8900-AF88-0073-6080A9B54642">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:36:16 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -23,7 +31,11 @@
 <Column name="gift_card_id" id="34AFFCA0-5727-0AB1-AED1-C948AB9DF666">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:36:16 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -36,7 +48,11 @@
 <Column name="redemption_date" id="8A8CDF72-D48E-C1AF-58EA-70550825CAFF">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:41:30 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +65,11 @@
 <ind_PK_UK id="8BDB2FBE-9152-8D07-70E7-122C34BBFC9C" name="ACCOUNT_GIFT_CARD_PK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:36:16 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -61,14 +81,22 @@
 <ind_PK_UK id="635EBE4B-3D93-3632-124A-39255BFB386E" name="TABLE_53_GIFT_CARD_FK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:36:16 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 <ind_PK_UK id="055C3694-9DC6-2DB3-9170-72E6C5014035" name="ACCOUNT_GIFT_CARD_ACCOUNT_FK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:36:16 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -78,7 +106,11 @@
 <ind_PK_UK id="607391B1-AAD8-A86B-D2EC-3021661328A2" name="ACCOUNT_GIFT_CARD_GIFT_CARD_FK">
 <createdBy>Andrej</createdBy>
 <createdTime>2024-11-26 20:39:02 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -86,4 +118,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

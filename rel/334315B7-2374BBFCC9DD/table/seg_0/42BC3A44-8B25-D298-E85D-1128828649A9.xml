@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42BC3A44-8B25-D298-E85D-1128828649A9" name="CHAT_HISTORY">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:46:26 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +15,11 @@
 <Column name="chat_id" id="4E752D2D-5D02-A699-9DDE-EFC9150CF672">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:56:07 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +29,11 @@
 <Column name="message" id="93BD0B81-AE8E-3D11-E076-B467041CEC8D">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:56:45 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -32,7 +44,11 @@
 <Column name="timestamp" id="B537B98E-D3E1-7843-4826-DB4B06FDC125">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:57:46 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -42,7 +58,11 @@
 <Column name="account_id" id="0D621916-00BB-642A-A5D3-5B599B83F212">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:58:21 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -55,7 +75,11 @@
 <Column name="character_id" id="EB819592-C49A-CF1C-D606-FC8FFBF85225">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:53:40 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -71,7 +95,11 @@
 <ind_PK_UK id="F514FE44-1A21-1736-5497-735655CDEAAF" name="CHAT_HISTORY_PK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:58:59 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -82,7 +110,11 @@
 <ind_PK_UK id="CF2EB9F9-3163-5E69-D724-4D1380DA547B" name="CHAT_HISTORY_ACCOUNT_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 13:58:44 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -92,7 +124,11 @@
 <ind_PK_UK id="1F04C533-63AE-B577-58C9-4068C9A5A521" name="CHAT_HISTORY_CHARACTER_FK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:53:40 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -100,4 +136,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

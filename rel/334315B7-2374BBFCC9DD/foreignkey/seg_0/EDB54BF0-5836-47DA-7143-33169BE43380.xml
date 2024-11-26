@@ -2,7 +2,11 @@
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDB54BF0-5836-47DA-7143-33169BE43380" containerWithKeyObject="42BC3A44-8B25-D298-E85D-1128828649A9" localFKIndex="1F04C533-63AE-B577-58C9-4068C9A5A521" name="CHAT_HISTORY_CHARACTER_FK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:53:40 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <referredTableLongName>CHARACTER</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>8F2DC82C-4E1C-A88F-02B5-50DE9E0F744D</referredTableID>
@@ -13,4 +17,8 @@
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
 </FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

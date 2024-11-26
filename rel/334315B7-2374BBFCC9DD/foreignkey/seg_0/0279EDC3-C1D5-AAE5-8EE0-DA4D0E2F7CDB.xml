@@ -2,7 +2,11 @@
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0279EDC3-C1D5-AAE5-8EE0-DA4D0E2F7CDB" containerWithKeyObject="800A4DEF-2869-25D7-5AE6-742AA3DCA49C" localFKIndex="A3FF0608-B8DA-A894-175A-A73A82022092" name="TOURNAMENT_GAME_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 15:10:52 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <referredTableLongName>GAME</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2F0A1102-BC62-EDA8-BDC1-1FBBD5B0AD01</referredTableID>
@@ -13,4 +17,8 @@
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
 </FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

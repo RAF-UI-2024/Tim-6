@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AF6356C-0F7C-4F02-FE80-C5367E11285B" containerWithKeyObject="F7D051E3-6D54-07C0-6C9D-AC150F60B423" localFKIndex="F6725412-F2CC-39BF-874E-AEC6FCFA2DEC" name="ACCOUNT_USER_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>ABAC0CB3-91C2-6F3D-DCB3-34DB782E15EC</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<referredTableLongName>USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>260E32EF-6CD6-C2AF-8193-3DC875EB6AD4</referredTableID>
+<keyObject>DFD4F097-DCF8-4D16-35B8-51E28FE8F9F6</keyObject>
+<referredKeyID>DFD4F097-DCF8-4D16-35B8-51E28FE8F9F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -2,7 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F404FC41-3E25-7906-FA42-BCB1DAD256BA" name="GAME">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 17:43:51 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -18,7 +22,11 @@
 <Attribute name="game id" id="E0352BBF-E3AB-C16E-8EF8-6336AD1823D1">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 17:49:23 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -30,7 +38,11 @@
 <Attribute name="name" id="32FC797E-A799-969F-5C57-1711293A43AC">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:41:14 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -43,7 +55,11 @@
 <Attribute name="active" id="F0381779-C2B2-175E-0903-1C9A8BA64F1F">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 19:41:57 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -57,7 +73,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:35:00 UTC</createdTime>
 <generatorID>47A4BC08-D12A-2A27-40C7-117E612B4B21</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -71,7 +91,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:37:14 UTC</createdTime>
 <generatorID>4A8839E4-4AE2-9413-773A-2E1742F3AB27</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -85,7 +109,11 @@
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:52:35 UTC</createdTime>
 <generatorID>565FB09F-E940-75ED-D97E-999E26335120</generatorID>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -100,7 +128,11 @@
 <identifier id="EC129C49-7014-03C4-5CD5-05CBCAF87B89" name="GAME PK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-13 18:34:46 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <engineerTo>
 <item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
 </engineerTo>
@@ -110,4 +142,8 @@
 </usedAttributes>
 </identifier>
 </identifiers>
+<<<<<<< HEAD
 </Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

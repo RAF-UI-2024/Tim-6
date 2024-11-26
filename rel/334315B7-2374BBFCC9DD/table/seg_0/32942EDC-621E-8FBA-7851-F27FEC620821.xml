@@ -2,7 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32942EDC-621E-8FBA-7851-F27FEC620821" name="PAYMENT_DOCUMENT">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:11:46 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <ordsAlias>table_29</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +15,11 @@
 <Column name="payment_document_id" id="2B3F2124-8009-07D9-8973-CCE3FD11A9EF">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:13:19 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +29,11 @@
 <Column name="card_number" id="FD266B8D-1A29-D587-BF30-9429FA44318A">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:13:41 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -32,7 +44,11 @@
 <Column name="expiration_date" id="72AF9C78-5222-AE8E-FD4E-65F95669CB93">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:14:42 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -42,7 +58,11 @@
 <Column name="billing_address" id="76CE19EE-3AB5-43E0-1EA5-CCFF5E85916C">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:15:06 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -53,7 +73,11 @@
 <Column name="account_id" id="85347DD5-990F-2294-4DDF-D998C22418F3">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:15:19 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -66,7 +90,11 @@
 <Column name="BANK_DETAILS_bank_details_id" id="30A5E3F9-5148-363F-CFD0-3715799E0C4E">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:29:14 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -82,7 +110,11 @@
 <ind_PK_UK id="85484935-B357-11B3-32A1-B405402BBF43" name="PAYMENT_DOCUMENT_PK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:13:19 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -93,7 +125,11 @@
 <ind_PK_UK id="53944F7B-13AC-4A4A-6BF8-CEDCF0AD2040" name="PAYMENT_DOCUMENT_ACCOUNT_FK">
 <createdBy>Andjela</createdBy>
 <createdTime>2024-10-15 14:15:29 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -103,7 +139,11 @@
 <ind_PK_UK id="E977F8D3-07CB-A6C0-27D2-D4636A43DFA4" name="PAYMENT_DOCUMENT_BANK_DETAILS_FK">
 <createdBy>tijan</createdBy>
 <createdTime>2024-10-28 19:29:14 UTC</createdTime>
+<<<<<<< HEAD
 <ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -111,4 +151,8 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<<<<<<< HEAD
 </Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
