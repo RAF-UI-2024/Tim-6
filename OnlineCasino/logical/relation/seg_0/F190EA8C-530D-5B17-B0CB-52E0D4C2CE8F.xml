@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOCATION GAME LAUNCH FK" directorySegmentName="seg_0" id="F190EA8C-530D-5B17-B0CB-52E0D4C2CE8F">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:47:13 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>4F60925A-15B0-C475-07F1-88FA8953984E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0B71B09C-AB15-28DD-6349-FDCBE8C4C397</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5F7598EB-78B8-F9A9-208D-597D78985904</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
