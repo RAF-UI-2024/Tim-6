@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAVORITE_GAMES_GAME_FK" directorySegmentName="seg_0" id="511BA087-0A67-A420-417B-03CB6BC4F72D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>BC1DA57D-E43A-3C89-019D-95F0AF485A32</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>EC129C49-7014-03C4-5CD5-05CBCAF87B89</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F404FC41-3E25-7906-FA42-BCB1DAD256BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E18DA388-655D-88A9-E9FD-960153CCB4BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

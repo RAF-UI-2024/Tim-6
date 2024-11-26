@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="534F529D-A8EC-5148-AE24-ED778BB1E3D8" containerWithKeyObject="86CDC770-5274-D021-80FA-F4C9CB5BE0FC" localFKIndex="91E4A499-B458-558D-7C3C-6B65CCB3C7DF" name="WITHDRAW_TRANSACTION_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>6B9D95C4-E809-0A64-BD21-4B066062035C</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<referredTableLongName>TRANSACTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>222960A6-2F9C-37BF-1423-83F100037832</referredTableID>
+<keyObject>281CF428-04B4-68EB-06F4-5C93BC2780D5</keyObject>
+<referredKeyID>281CF428-04B4-68EB-06F4-5C93BC2780D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>transaction_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE3F26B-2156-9FFD-4423-27CDE854F47C" name="COMPLAINTS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:07:26 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="complaint_id" id="AEDB3FA7-1A67-E17D-F513-639041DAA9F0">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:07:58 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="text" id="EBD0CB40-0195-EBF2-DBE0-CC0E27867D19">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:08:21 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="submitted_at" id="2E41FEA9-F913-A0E2-7E70-37D56AA4F75C">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:08:41 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="FCD3EE8E-69C1-B073-51AC-54C812F064F5">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:08:57 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5DA3F7F-62E7-CCFA-4D75-461AAF1D2D5B" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD45BD4E-4E51-C4A0-D057-F265723C571A" name="COMPLAINTS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:07:58 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEDB3FA7-1A67-E17D-F513-639041DAA9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DD4ECF4-9B98-378A-4F48-159D4116D3D2" name="COMPLAINTS_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:09:04 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD3EE8E-69C1-B073-51AC-54C812F064F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

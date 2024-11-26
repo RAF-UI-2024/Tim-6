@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B327C61D-A058-B74A-2E50-9A8E442CDE8E" name="DRIVERS LICENSE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:09:42 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dodatno polje" id="B1486503-8A20-A3B8-59DE-0D3BA81B014A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:10:35 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="document id" id="BC7DAFE1-1914-6B34-EC6C-28B16304E365">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:13:11 UTC</createdTime>
+<generatorID>CC53501F-900E-A639-388B-03C3DAF94B6B</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>26E9D0B5-264A-65EA-8C83-4E3593730293</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="869312A1-7010-7491-05D0-B201FAD3DDAB" name="DRIVERS_LICENSE_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:10:54 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC7DAFE1-1914-6B34-EC6C-28B16304E365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

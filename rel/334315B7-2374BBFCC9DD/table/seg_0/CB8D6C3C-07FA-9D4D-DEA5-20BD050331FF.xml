@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB8D6C3C-07FA-9D4D-DEA5-20BD050331FF" name="PASSPORT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>A381C74B-6664-B343-38C1-7DBCB8BC423F</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="BB2B78FD-58FA-619B-3043-42B68B09FFB6">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>F52D4087-9564-9A40-DEF6-A395A8956879</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B9B7942-C793-0727-BF00-9A2E8068C5D3" referredColumn="17BE76E8-258F-D4D7-DA28-925A3BD82BA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30A44DD5-45DE-96CF-9602-9970FBE5935A" name="PASSPORT_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>B8842E8B-55C4-3F04-DB72-D389D1F5C950</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB2B78FD-58FA-619B-3043-42B68B09FFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1746068-7389-0F70-7173-689A9184E441" name="PASSPORT_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>F4D2AC6F-C5CC-F80B-ED59-194C85499DC5</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB2B78FD-58FA-619B-3043-42B68B09FFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

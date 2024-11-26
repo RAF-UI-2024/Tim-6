@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPOSIT TRANSACTION FK" directorySegmentName="seg_0" id="7CEEFA29-597B-1F39-7CB5-95F7C73E3CA6">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:14:22 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>B22671D4-DD89-0DF8-8198-4178AF620826</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4417893A-4A8B-5A3D-832D-CA8E37A65084</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BC4161D5-D85C-9274-1653-3DE2A15E02A8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="046B7AC6-9E6A-DB64-99C3-758D3CCF090C" name="GAME_ROUND">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>B16A6446-7E0E-32A7-DAFE-46F28410EB47</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_round_id" id="4D417635-E1E5-1966-CA8E-F9294DB8AEFE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>1ED7D059-2715-9CF0-0ED9-4DA41B93947C</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="win" id="4EE9229F-FF02-8401-5D73-17336258DCA9">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>EFB2E74C-0D6A-8D3E-352A-CDF2E9FA93ED</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_time" id="5232583D-BF63-AF6E-5F01-2C2F85560631">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 17:37:27 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="759F68C2-A521-B447-6F93-D060FBF94B07">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 17:37:40 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_launch_id" id="C4388459-84FA-6B0F-BD7B-2A28E0ABDD59">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>143FB4B7-5EBC-B4EB-844D-68CD1DB32843</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F409728-6683-BAAB-FF7B-BE60C11AF625" referredColumn="ED8C1208-D04C-841F-5E5C-3426FA6214D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85093B15-7A2F-71A6-19C7-7E1378E3A16B" name="GAME_ROUND_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>1BB39E49-729A-5BCD-9725-1D5C25216909</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D417635-E1E5-1966-CA8E-F9294DB8AEFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C079D970-7060-7CEE-B348-99F380F5745B" name="GAME_ROUND_GAME_LAUNCH_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>B8619FB8-268A-51BC-413B-90BE90F15F65</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4388459-84FA-6B0F-BD7B-2A28E0ABDD59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

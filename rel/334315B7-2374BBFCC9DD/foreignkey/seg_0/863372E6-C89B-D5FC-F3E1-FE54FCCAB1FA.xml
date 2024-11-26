@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="863372E6-C89B-D5FC-F3E1-FE54FCCAB1FA" containerWithKeyObject="1381FD18-A3F2-5F7A-38B9-6DA0CBF7ADF6" localFKIndex="607391B1-AAD8-A86B-D2EC-3021661328A2" name="ACCOUNT_GIFT_CARD_GIFT_CARD_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:39:02 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<referredTableLongName>GIFT_CARD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DFE12B5-B175-DA08-8FA0-FE468674A9A1</referredTableID>
+<keyObject>4B1A0857-83F9-5BB4-320F-E6E17383E93F</keyObject>
+<referredKeyID>4B1A0857-83F9-5BB4-320F-E6E17383E93F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>gift_card_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

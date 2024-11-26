@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C5F799F-21CB-692C-B0C4-523177EAE6DD" name="GAME_LAUNCH">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>0B71B09C-AB15-28DD-6349-FDCBE8C4C397</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_launch_id" id="ED8C1208-D04C-841F-5E5C-3426FA6214D6">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>E6C0441C-5DA7-17B5-A5BA-C4ADDCF9C876</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="win" id="BD778196-30A4-F60B-B162-720BCC375430">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-16 20:52:08 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_time" id="AEE528E2-030E-6954-9193-81D01523BF51">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-16 20:52:08 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="73324AC0-A613-C3F5-6E01-A0727BD6770B">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-16 20:52:08 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="4188B482-6082-0B31-43BF-6922FC2F7D60">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>B60D1B7C-2B69-3AE0-5749-8EDDEC102135</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B33A38D3-7710-E9B6-0B89-8D37694DB351" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="game_id" id="1896B0CA-F6E0-7385-BCB1-0273807371C3">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>A686424B-8694-99C5-56FD-782A35EC7A20</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7308A86D-6CF6-1DFA-61DC-BA6D1CB07C9D" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AECE6901-D405-BB08-DCD2-5B7AA8CEF255" name="GAME_LAUNCH_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>4F60925A-15B0-C475-07F1-88FA8953984E</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED8C1208-D04C-841F-5E5C-3426FA6214D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3188AC1-D8C7-7463-9E2A-732C0A69BA9F" name="GAME_LAUNCH_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>6799A01B-CE00-89C1-E428-5D1BC1CF1A27</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4188B482-6082-0B31-43BF-6922FC2F7D60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2B674E5-5786-706F-0B83-C359E0114D31" name="GAME_LAUNCH_GAME_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>23B626A3-2A5A-285C-433D-984D38879241</generatorID>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1896B0CA-F6E0-7385-BCB1-0273807371C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

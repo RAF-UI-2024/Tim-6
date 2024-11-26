@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="800A4DEF-2869-25D7-5AE6-742AA3DCA49C" name="TOURNAMENT">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:08:08 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tournament_id" id="F8E968CE-20D5-334B-6141-098615DF0745">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:08:49 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="82B272B1-5424-F3FE-7657-08B52FBC1F97">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:08:58 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="753B76C4-CA29-5D7A-5D3B-E2A2647E4037">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:10:01 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="9FB11D4B-401A-32E0-4C0D-CA7C8A5EA6F8">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:10:09 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="D8F0A583-63A4-BD9D-1D10-91A797EB83EE">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:10:40 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0279EDC3-C1D5-AAE5-8EE0-DA4D0E2F7CDB" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="224B944C-6932-E328-81C9-6543A97C4FC5" name="TOURNAMENT_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:08:58 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E968CE-20D5-334B-6141-098615DF0745"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3FF0608-B8DA-A894-175A-A73A82022092" name="TOURNAMENT_GAME_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:10:52 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8F0A583-63A4-BD9D-1D10-91A797EB83EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

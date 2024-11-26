@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0212976F-BD3D-8BAD-F240-FDF45985D3F2" name="USER_SESSION">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:43:55 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_session_id" id="89AD0EB8-07BC-0AF9-39B8-CBD33C5DD107">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:44:37 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_start" id="3195B628-17CA-FEA1-B2AA-8322B35CC8CF">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:46:02 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_end" id="39070D51-6E5C-305F-A50F-DF04C0721402">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:46:02 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="05458ADD-9376-0BF1-A3BC-A672FD179547">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:46:02 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F104F863-2323-0981-186C-AA646FF671F9" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="653AC7F8-EAB1-FC2B-24B3-A6D99702EBFB" name="USER_SESSIONS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:44:37 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89AD0EB8-07BC-0AF9-39B8-CBD33C5DD107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABEA3828-2F4B-B3F0-4682-F4ACD8DA4C88" name="USER_SESSIONS_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:47:40 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05458ADD-9376-0BF1-A3BC-A672FD179547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

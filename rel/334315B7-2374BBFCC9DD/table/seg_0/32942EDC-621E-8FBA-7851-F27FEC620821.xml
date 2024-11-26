@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32942EDC-621E-8FBA-7851-F27FEC620821" name="PAYMENT_DOCUMENT">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:11:46 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_document_id" id="2B3F2124-8009-07D9-8973-CCE3FD11A9EF">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:13:19 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_number" id="FD266B8D-1A29-D587-BF30-9429FA44318A">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:13:41 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiration_date" id="72AF9C78-5222-AE8E-FD4E-65F95669CB93">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:14:42 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="billing_address" id="76CE19EE-3AB5-43E0-1EA5-CCFF5E85916C">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:15:06 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="85347DD5-990F-2294-4DDF-D998C22418F3">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:15:19 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7887AAEB-ADAE-F504-C6F8-D74CDDB6FF73" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="BANK_DETAILS_bank_details_id" id="30A5E3F9-5148-363F-CFD0-3715799E0C4E">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:29:14 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64782A4-74BC-9793-5008-9C636978F21A" referredColumn="5FD9C71C-E7C8-072A-0A9C-12A6045798B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85484935-B357-11B3-32A1-B405402BBF43" name="PAYMENT_DOCUMENT_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:13:19 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B3F2124-8009-07D9-8973-CCE3FD11A9EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53944F7B-13AC-4A4A-6BF8-CEDCF0AD2040" name="PAYMENT_DOCUMENT_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:15:29 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85347DD5-990F-2294-4DDF-D998C22418F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E977F8D3-07CB-A6C0-27D2-D4636A43DFA4" name="PAYMENT_DOCUMENT_BANK_DETAILS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:29:14 UTC</createdTime>
+<ownerDesignName>UIw8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A5E3F9-5148-363F-CFD0-3715799E0C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
