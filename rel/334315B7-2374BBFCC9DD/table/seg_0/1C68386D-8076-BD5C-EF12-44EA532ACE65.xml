@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C68386D-8076-BD5C-EF12-44EA532ACE65" name="BANK_DETAILS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:10:07 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bank_details_id" id="5FD9C71C-E7C8-072A-0A9C-12A6045798B3">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:11:07 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bank_name" id="6121F824-B1B5-043D-8F4A-E630C50D28B4">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:11:21 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iban" id="D3DCF6FD-9E09-B17E-CA49-758F468B3F9E">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:11:41 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B616FD0D-826B-17C1-67DE-C440A6455B47" name="BANK_DETAILS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:11:07 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD9C71C-E7C8-072A-0A9C-12A6045798B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<<<<<<< HEAD
+</Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

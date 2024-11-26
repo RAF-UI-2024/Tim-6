@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E24BB6A-1144-59D9-2A50-DDEE0787326B" name="CURRENCY">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 17:40:05 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="currency id" id="45CDEE79-5C89-05ED-9656-862B96C384A8">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 17:42:10 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="5F8A841B-F79E-B0FD-1F55-742826524963">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:39:06 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="BED51A3E-AF74-2B96-6E90-F4824AE0ABA0">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:39:26 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC204355-ED9C-ACC6-37C0-B1590AC8996E" name="CURRENCY PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:33:57 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45CDEE79-5C89-05ED-9656-862B96C384A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+<<<<<<< HEAD
+</Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

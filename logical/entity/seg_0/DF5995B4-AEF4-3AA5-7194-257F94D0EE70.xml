@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF5995B4-AEF4-3AA5-7194-257F94D0EE70" name="LOCALE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>9C810FFE-F641-042E-B1F1-7BCFADC61E86</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="locale id" id="0B789EF2-4D6B-738F-A5D0-EC17140B1C56">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>9568CF0F-54F4-0455-699E-1C23452AC086</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="F9E397E6-0549-FBF2-5360-D96B31B07EC0">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>8B794729-762E-F5AA-24A3-49C173786BB0</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="B2C3A86B-3593-4CD3-DB13-D4F76004AA64">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>8ED6A9AB-3CE9-46B1-7087-B50324D75569</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8896717-CDCF-36AE-B5AC-1F8BE5ADB2B7" name="LOCALE PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>976106CA-3B2E-4B35-78F4-5D8AD56C333E</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B789EF2-4D6B-738F-A5D0-EC17140B1C56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+<<<<<<< HEAD
+</Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

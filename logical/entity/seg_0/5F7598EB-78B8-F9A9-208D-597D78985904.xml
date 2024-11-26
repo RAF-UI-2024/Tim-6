@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F7598EB-78B8-F9A9-208D-597D78985904" name="LOCATION">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 17:43:19 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location id" id="1724A8BE-F01D-838C-7A93-4BED56D0B201">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 17:49:34 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="F4074DC7-DE43-3599-A256-30F913D476A7">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:47:35 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="05CCCD93-58A2-D0AB-3948-F9838070E33E">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:48:30 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="game launch id" id="457197C9-7677-3907-7C9A-58B3CB9D2F3C">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:47:13 UTC</createdTime>
+<generatorID>F190EA8C-530D-5B17-B0CB-52E0D4C2CE8F</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>E6C0441C-5DA7-17B5-A5BA-C4ADDCF9C876</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A893929-7C15-3D82-7AFD-DE6A3A28D8C8" name="LOCATION PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:35:06 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1724A8BE-F01D-838C-7A93-4BED56D0B201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+<<<<<<< HEAD
+</Entity>
+=======
+</Entity>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

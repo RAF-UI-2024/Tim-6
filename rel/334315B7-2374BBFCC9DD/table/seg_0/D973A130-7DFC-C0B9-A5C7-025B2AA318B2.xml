@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D973A130-7DFC-C0B9-A5C7-025B2AA318B2" name="LOSS_LIMIT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>A1F1E689-4F8F-FF81-5649-2B81F034421F</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="limit_id" id="9AC3A416-D2E0-B3A7-0F8D-B72C8FFF92AB">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>6343BDA1-305A-3D0E-37E0-7A8E06C09E24</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C0EF62-CEFA-7468-4F6E-380B20A4EB08" referredColumn="E14F2453-A516-169B-AEC6-EB94E9C38BE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC5FD11-A806-C397-68FB-D94AF13C4507" name="LOSS_LIMIT_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>1388B025-4970-07DC-EF1D-5508AFD6B90F</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC3A416-D2E0-B3A7-0F8D-B72C8FFF92AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E42BA7A-BCF9-03EF-8EF1-81C5C6FBBD57" name="LOSS_LIMIT_LIMIT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>0A28B212-9918-41E8-B38C-70B15D21F8FC</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC3A416-D2E0-B3A7-0F8D-B72C8FFF92AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<<<<<<< HEAD
+</Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

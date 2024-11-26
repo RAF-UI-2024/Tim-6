@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25F66D9F-DCD6-AA37-549E-32E5C88084DD" containerWithKeyObject="2F0A1102-BC62-EDA8-BDC1-1FBBD5B0AD01" localFKIndex="3644F84D-3ECB-4083-D5D7-468C51D152DA" name="GAME_PRODUCER_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>565FB09F-E940-75ED-D97E-999E26335120</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<referredTableLongName>PRODUCER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6DD19C5-30B0-6724-A6EE-CAE45B63A06F</referredTableID>
+<keyObject>86073B55-BE2F-F045-A277-60D2364EA5F9</keyObject>
+<referredKeyID>86073B55-BE2F-F045-A277-60D2364EA5F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>producer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
+</FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

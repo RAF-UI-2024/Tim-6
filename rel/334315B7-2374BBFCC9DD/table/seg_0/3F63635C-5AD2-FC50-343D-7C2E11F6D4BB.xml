@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F63635C-5AD2-FC50-343D-7C2E11F6D4BB" name="TOURNAMENT_PARTICIPANTS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:11:06 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tournament_id" id="120F19B2-6E7D-7173-898B-FEE1B42E4BC4">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:12:14 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEF1BF92-9FFB-8963-B830-FDB5AC0D5D09" referredColumn="F8E968CE-20D5-334B-6141-098615DF0745"/>
+</associations>
+</Column>
+<Column name="account_id" id="F0FDD4EE-E270-5864-46E3-B423A06A2100">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:12:26 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4F153B1-397A-AA16-ECEC-B78D114C553F" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="100C58F3-2348-B290-8DF0-2090D7D2868E" name="TOURNAMENT_PARTICIPANTS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:11:42 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="120F19B2-6E7D-7173-898B-FEE1B42E4BC4"/>
+<colUsage columnID="F0FDD4EE-E270-5864-46E3-B423A06A2100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33BE5CD3-642A-8D47-9405-AB547D406129" name="TOURNAMENT_PARTICIPANTS_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:13:19 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0FDD4EE-E270-5864-46E3-B423A06A2100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FDE27C0-22D8-E476-36B3-321A789A2B69" name="TOURNAMENT_PARTICIPANTS_TOURNAMENT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-16 20:20:04 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="120F19B2-6E7D-7173-898B-FEE1B42E4BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<<<<<<< HEAD
+</Table>
+=======
+</Table>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

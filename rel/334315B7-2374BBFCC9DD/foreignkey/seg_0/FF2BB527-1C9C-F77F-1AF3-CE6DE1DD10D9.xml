@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF2BB527-1C9C-F77F-1AF3-CE6DE1DD10D9" containerWithKeyObject="8816292F-777B-4DD4-E794-6B4EFA137445" localFKIndex="BDA6F85E-1E74-EFEE-3573-A67E9955A4CF" name="WAGER_LIMIT_LIMIT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>3A0CE3C2-D434-19B4-189B-BF50414F89B9</generatorID>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<referredTableLongName>LIMIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D29502CA-C532-BD77-EF7F-48DB99F99478</referredTableID>
+<keyObject>098D7B39-7171-0D2F-2F76-955D2189F99F</keyObject>
+<referredKeyID>098D7B39-7171-0D2F-2F76-955D2189F99F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>limit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+<<<<<<< HEAD
+</FKIndexAssociation>
+=======
+</FKIndexAssociation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d

@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACCOUNT CURRENCY FK" directorySegmentName="seg_0" id="60064B66-A419-B758-DBF0-0188364CF509">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:38:38 UTC</createdTime>
+<<<<<<< HEAD
+<ownerDesignName>Onlinecasino</ownerDesignName>
+=======
+<ownerDesignName>UIw8</ownerDesignName>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>BC204355-ED9C-ACC6-37C0-B1590AC8996E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E24BB6A-1144-59D9-2A50-DDEE0787326B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<<<<<<< HEAD
+</Relation>
+=======
+</Relation>
+>>>>>>> 068e35a947c6e9bfefe97b617350e79f25f3908d
