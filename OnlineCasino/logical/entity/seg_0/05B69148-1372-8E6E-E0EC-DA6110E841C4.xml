@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05B69148-1372-8E6E-E0EC-DA6110E841C4" name="PERSONAL ID">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:08:29 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dodatno polje" id="E8539BFD-D94D-4AA2-89E9-6829AEBD8ECE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:08:46 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="document id" id="E18D269C-8058-48C1-700F-0C9C79DD2CB7">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:12:55 UTC</createdTime>
+<generatorID>E5634C19-9CA9-12F5-A193-E83C2FC11FE8</generatorID>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>26E9D0B5-264A-65EA-8C83-4E3593730293</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24136E02-BEF7-F105-FC41-D2EA7E9F8801" name="PERSONAL_ID_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:09:06 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E18D269C-8058-48C1-700F-0C9C79DD2CB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

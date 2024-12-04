@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2598E53-244E-3782-DCA5-7D38F3076C08" name="MOBILE_DEVICE_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<containerWithKeyObject>B7054E5F-2DAA-D07C-935B-8AE8A30FDBD2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7C999787-47F1-4A95-3E24-CDD5A3E49D26</localFKIndex>
+<keyObject>C857AA5A-F801-3A06-389A-F264C989EFC2</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

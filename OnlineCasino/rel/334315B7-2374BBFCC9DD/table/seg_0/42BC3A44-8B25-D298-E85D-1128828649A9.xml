@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42BC3A44-8B25-D298-E85D-1128828649A9" name="CHAT_HISTORY">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:46:26 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chat_id" id="4E752D2D-5D02-A699-9DDE-EFC9150CF672">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:56:07 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message" id="93BD0B81-AE8E-3D11-E076-B467041CEC8D">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:56:45 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="B537B98E-D3E1-7843-4826-DB4B06FDC125">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:57:46 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="0D621916-00BB-642A-A5D3-5B599B83F212">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:58:21 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A450CA12-AD49-6BFB-0BDD-ED08A3779298" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="character_id" id="EB819592-C49A-CF1C-D606-FC8FFBF85225">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:53:40 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDB54BF0-5836-47DA-7143-33169BE43380" referredColumn="FA1D092D-22B4-B277-D0A4-D28426C18F0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F514FE44-1A21-1736-5497-735655CDEAAF" name="CHAT_HISTORY_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:58:59 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E752D2D-5D02-A699-9DDE-EFC9150CF672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF2EB9F9-3163-5E69-D724-4D1380DA547B" name="CHAT_HISTORY_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 13:58:44 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D621916-00BB-642A-A5D3-5B599B83F212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F04C533-63AE-B577-58C9-4068C9A5A521" name="CHAT_HISTORY_CHARACTER_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:53:40 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB819592-C49A-CF1C-D606-FC8FFBF85225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

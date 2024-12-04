@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="863372E6-C89B-D5FC-F3E1-FE54FCCAB1FA" name="ACCOUNT_GIFT_CARD_GIFT_CARD_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:39:02 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<containerWithKeyObject>1381FD18-A3F2-5F7A-38B9-6DA0CBF7ADF6</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>607391B1-AAD8-A86B-D2EC-3021661328A2</localFKIndex>
+<keyObject>4B1A0857-83F9-5BB4-320F-E6E17383E93F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

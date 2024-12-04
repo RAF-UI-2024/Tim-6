@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E79B1B0E-B649-0E5B-AD3E-87AFBE2BEDFF" containerWithKeyObject="BB31F469-5B1E-1A9F-8752-B5D38A4FA0B4" localFKIndex="E11E18F5-EAB6-8BE7-4316-6CFC8EF809D9" name="FRAUD_DETECTION_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:51:33 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<referredTableLongName>ACCOUNT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7D051E3-6D54-07C0-6C9D-AC150F60B423</referredTableID>
+<keyObject>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</keyObject>
+<referredKeyID>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>account_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

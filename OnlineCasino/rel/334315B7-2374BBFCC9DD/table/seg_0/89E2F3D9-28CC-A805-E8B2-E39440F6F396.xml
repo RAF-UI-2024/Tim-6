@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89E2F3D9-28CC-A805-E8B2-E39440F6F396" name="USER_NOTIFICATIONS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:51:48 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="notification_id" id="F4E30BB6-D200-ADF5-253D-EE3562A1624C">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:17 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message" id="CC5ECDD4-3FB4-56BF-27A6-8FB0BB6E42B6">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:17 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="read_status" id="950227C1-5530-A32C-6093-EFAAA8194BD4">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:17 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="26C9B495-06B3-DE7B-4A7A-C054BB53FB37">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:17 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAABB5DD-2EF8-B30A-AC3B-63DEF514B0C4" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FCAA946-EC50-B053-9104-5F6D01E19C79" name="USER_NOTIFICATIONS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:17 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4E30BB6-D200-ADF5-253D-EE3562A1624C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F3FF974-EBAD-3418-FA5A-D010242595C9" name="USER_NOTIFICATIONS_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:54:27 UTC</createdTime>
+<ownerDesignName>OnlineCasino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C9B495-06B3-DE7B-4A7A-C054BB53FB37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
