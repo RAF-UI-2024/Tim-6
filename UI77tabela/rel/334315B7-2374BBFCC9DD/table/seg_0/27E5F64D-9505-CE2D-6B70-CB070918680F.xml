@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27E5F64D-9505-CE2D-6B70-CB070918680F" name="REPORT_STATUSES">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:47:02 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_id" id="4DAB3037-2E6D-5596-B9D8-1FF8FA765E46">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:48:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="15CF0D60-5217-3828-6B2E-1F7C64D22480">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:49:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CD32B1D-9F0B-04C1-7530-C8B2EC790275" name="REPORT_STATUSES_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:48:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DAB3037-2E6D-5596-B9D8-1FF8FA765E46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

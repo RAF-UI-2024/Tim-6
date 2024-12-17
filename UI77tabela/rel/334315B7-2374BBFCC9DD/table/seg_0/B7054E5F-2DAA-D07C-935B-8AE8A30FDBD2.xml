@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7054E5F-2DAA-D07C-935B-8AE8A30FDBD2" name="MOBILE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:28:53 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="device_id" id="EA19B5A1-055B-F60A-FF22-21922D84842D">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2598E53-244E-3782-DCA5-7D38F3076C08" referredColumn="261B31EA-1BB0-31B6-51B8-72AD29A76484"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5033A56F-D262-DC39-4BDE-81AC7A34B853" name="MOBILE_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA19B5A1-055B-F60A-FF22-21922D84842D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C999787-47F1-4A95-3E24-CDD5A3E49D26" name="MOBILE_DEVICE_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:29:41 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA19B5A1-055B-F60A-FF22-21922D84842D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

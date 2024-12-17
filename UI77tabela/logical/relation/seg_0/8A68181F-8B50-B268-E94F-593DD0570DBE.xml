@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TOURNAMENT_GAME_FK" directorySegmentName="seg_0" id="8A68181F-8B50-B268-E94F-593DD0570DBE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>0279EDC3-C1D5-AAE5-8EE0-DA4D0E2F7CDB</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>EC129C49-7014-03C4-5CD5-05CBCAF87B89</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F404FC41-3E25-7906-FA42-BCB1DAD256BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6454D7EE-658F-0E71-DDFB-53BB69CA784D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="18427F3F-6574-E8A0-937D-79CD466CD15C" name="GAME_TYPES">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:22:10 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_134</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_type_id" id="1F0458F1-7FC2-82C0-D6F6-A7D84EC1B393">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:08 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_name" id="50539552-A898-265E-AF13-625AB7D25D66">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:08 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="5C6BEC9D-2EC4-9B6E-EE4A-5FB4EDAA1752">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_active" id="DCE73100-B752-3170-C5CE-E495703DBD20">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:57 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="9552F0BC-FC52-9790-6141-554AAEC62B96">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:57 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="E83A4C66-4CEA-A899-3422-2EE009A52EA9">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:57 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="749393CD-B8EF-EB8F-53F2-04FA22F99D1B" name="GAME_TYPES_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:23:08 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0458F1-7FC2-82C0-D6F6-A7D84EC1B393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

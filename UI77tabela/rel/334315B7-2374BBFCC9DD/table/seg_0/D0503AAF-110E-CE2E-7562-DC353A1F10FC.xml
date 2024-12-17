@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0503AAF-110E-CE2E-7562-DC353A1F10FC" name="GAME_RULES">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:16:44 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rule_id" id="DBC7741F-0C49-8AC9-A754-28F7B0319621">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:17:02 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rule_description" id="02389A26-ACE1-8DC3-223F-729E1D391BCA">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:17:41 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="0644E2D1-C11A-E136-F365-8FD9F7ED38C7">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:18:23 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61E34F03-9E68-CD02-07C5-35722F1A40E7" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37646FF9-4466-83DD-2D97-9749055F1115" name="GAME_RULES_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:17:02 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC7741F-0C49-8AC9-A754-28F7B0319621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5FCA7A7-34F3-32B5-B9ED-0D71490E1D9E" name="GAME_RULES_GAME_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:18:31 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0644E2D1-C11A-E136-F365-8FD9F7ED38C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

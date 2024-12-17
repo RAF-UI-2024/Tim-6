@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="7CA52082-2D52-D0A9-3614-654B7D98D8DF" name="MEMBERSHIP">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:10:34 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_126</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="membership_id	" id="5F3070F5-8B0C-71A8-1B14-B2085FA17F31">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:18 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="membership_name" id="02544176-E9B7-6C8F-5978-9E89F29463DF">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:18 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="membership_benefits" id="1DF286A7-6AE4-0A9D-3617-FD0ADE3C91F4">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:18 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC8A5962-7514-4F8E-3860-4A422401BC47" name="MEMBERSHIP_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:18 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F3070F5-8B0C-71A8-1B14-B2085FA17F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

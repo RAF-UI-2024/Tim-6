@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A8E2C00C-48EB-8F53-BCD9-D8F22D5174E5" name="ACCOUNT_MEMBERSHIP">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_127</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_membership_id" id="2D64FB95-D394-03E2-3411-718FC5F9E6FD">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:59 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="496E8E0D-F745-B5F5-7CB0-2D375945B63D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:59 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="106F14BA-A128-318C-1586-A4C335082462" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="membership_id" id="AA8C035E-5396-01C8-6449-160F435847E6">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:12:10 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FBB5672-F1E2-E4BF-1A39-FB1948A83FE1" referredColumn="5F3070F5-8B0C-71A8-1B14-B2085FA17F31"/>
+</associations>
+</Column>
+<Column name="start_date" id="83E77155-88FE-BE6D-026C-48ABC1A47D82">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:12:21 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="C2668B5E-1769-B8AB-DB92-C5E583F04415">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:12:44 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_active" id="DFACB6B4-366A-1D7B-758D-2BE9AEE4F04E">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:12:44 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="068DB1DA-FE60-9CE9-0F85-B6B6D1176352" name="ACCOUNT_MEMBERSHIP_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:11:59 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D64FB95-D394-03E2-3411-718FC5F9E6FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DACA488C-6656-2717-53A3-941AE1252E68" name="ACCOUNT_MEMBERSHIP_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:13:05 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="496E8E0D-F745-B5F5-7CB0-2D375945B63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E65CD4C9-B0A3-E6E5-64CD-590DF7AA3451" name="ACCOUNT_MEMBERSHIP_MEMBERSHIP_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:13:05 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA8C035E-5396-01C8-6449-160F435847E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="18332EAD-BF88-3EE1-1053-D5D5EC703440" containerWithKeyObject="83D27B90-45C8-E81C-0EA7-7CAA2817E635" localFKIndex="0AEC7E82-4B2E-C44A-E158-0EAB776F4C4C" name="FRAUD_ALERTS_EMPLOYEES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:03:01 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<referredTableLongName>EMPLOYEES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F2DC82C-4E1C-A88F-02B5-50DE9E0F744D</referredTableID>
+<keyObject>2A633C26-18F9-EAD9-5CF5-EBD0B36786B1</keyObject>
+<referredKeyID>2A633C26-18F9-EAD9-5CF5-EBD0B36786B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>employee_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7DD5506-CA68-B33B-BA66-2BFF4415B5AD" name="CHAT HISTORY">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>42BC3A44-8B25-D298-E85D-1128828649A9</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="chat id" id="350C3D78-5176-AFA3-C83E-6C4FAB5CD0FB">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>4E752D2D-5D02-A699-9DDE-EFC9150CF672</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="message" id="A56AA116-C90A-7B5C-17B0-332DC931BAC0">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>93BD0B81-AE8E-3D11-E076-B467041CEC8D</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp" id="8DF78C19-50CA-5CB5-02DD-BB3890F0204B">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>B537B98E-D3E1-7843-4826-DB4B06FDC125</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account id" id="AF0C68B7-5608-6A6E-FC59-F7BD6A12EE0B">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>167C57C2-459B-84C2-18BE-CF5A9405A124</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>2258768A-3338-C12D-4AF6-0B90EACD67B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23DB7A8D-0139-9FBB-5235-B31929E54035" name="CHAT HISTORY PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>F514FE44-1A21-1736-5497-735655CDEAAF</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>350C3D78-5176-AFA3-C83E-6C4FAB5CD0FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

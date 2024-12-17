@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F8DCB61-6F45-45FE-8F8D-524AF5B27927" name="CONFIGURATION">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:33:47 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="settings_id" id="C576A321-859B-C505-605D-EED3B7EF0402">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:34:13 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="F407F7E5-B466-B377-78D8-5CCA971F559F">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:35:19 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="355DF1E7-F7FE-F191-A908-2DED7D39C28F" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="LOCALE_locale_id" id="0900063B-345B-6CC5-AA41-FA2A67A457A2">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:34:26 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="586D43FD-68C0-7138-B97A-F6B7E7C7540A" referredColumn="9568CF0F-54F4-0455-699E-1C23452AC086"/>
+</associations>
+</Column>
+<Column name="LANGUAGE_language_id" id="D8E3F765-1087-1002-2F6F-16714219822F">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 14:58:23 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="871BC173-3CA0-AD8A-840D-4E70F9C0A3E2" referredColumn="B7965A85-15A3-6342-8F03-88E1EF9BF524"/>
+</associations>
+</Column>
+<Column name="THEME_theme_id" id="AF6FEECE-4A35-95F3-2E1F-35F2FD2BD7CC">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:15:12 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="690B57FC-7B60-E3CB-83A4-ADA4AE94478B" referredColumn="7AB1A20A-FC89-0500-BAE3-BEC0592BFBD5"/>
+</associations>
+</Column>
+<Column name="NOTIFICATION_notification_id" id="6C9C98FE-C59F-B8F3-F2B3-922A4C796E68">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:20:20 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AADEE7ED-EA79-40AF-C606-350059F9E629" referredColumn="E6480E21-14F3-277B-2004-E851F497D81D"/>
+</associations>
+</Column>
+<Column name="ACCESSIBILITY_accessibility_id" id="2855EE2B-F676-93E3-A373-F149E0FAFE84">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:25:48 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5920853C-433E-1CAD-F68F-C66E09640D95" referredColumn="AADA8566-4C2D-B746-B675-B4D035334F40"/>
+</associations>
+</Column>
+<Column name="SECURITY_security_id" id="42E5CD7B-1BC6-631A-7918-60447F1D87E5">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:44:43 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84A8589A-8FCA-C97D-BB18-252A36A5A261" referredColumn="FDFDFCB2-5F45-E309-9F6A-A6B34B3B6D3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF5F3836-BB88-2E59-48C6-21AC700EBF0D" name="USER_PREFERENCES_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:34:13 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C576A321-859B-C505-605D-EED3B7EF0402"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD8AB055-C403-9035-351C-52F14F2D41E8" name="USER_PREFERENCES_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:35:26 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F407F7E5-B466-B377-78D8-5CCA971F559F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B5C657F-DB08-E199-DA59-6121A4749C02" name="CONFIGURATION_LOCALE_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:34:26 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0900063B-345B-6CC5-AA41-FA2A67A457A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B5723A-537F-4E2B-0A6E-E6396F2FF254" name="CONFIGURATION_LANGUAGE_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 14:58:43 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8E3F765-1087-1002-2F6F-16714219822F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0E5DDC0-F05C-7C70-89B3-2FDBB2CBE330" name="CONFIGURATION_THEME_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:15:36 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6FEECE-4A35-95F3-2E1F-35F2FD2BD7CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933C757E-0BC6-9162-7F11-2B15A7EBD66B" name="CONFIGURATION_NOTIFICATION_SETTINGS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:20:20 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9C98FE-C59F-B8F3-F2B3-922A4C796E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F871F07-186B-6307-649C-0C09C0708B3A" name="CONFIGURATION_ACCESSIBILITY_SETTINGS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 15:25:59 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2855EE2B-F676-93E3-A373-F149E0FAFE84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDC25C6E-4320-163E-E892-799438E184F9" name="CONFIGURATION_SECURITY_SETTINGS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:44:43 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42E5CD7B-1BC6-631A-7918-60447F1D87E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

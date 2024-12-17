@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="759C1300-2136-50C8-92B4-4A6F27F105C4" containerWithKeyObject="9C5F799F-21CB-692C-B0C4-523177EAE6DD" localFKIndex="2A655A35-1480-FA26-BAF7-545BAFEF5B11" name="GAME_LAUNCH_USER_SESSION_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:17:26 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<referredTableLongName>USER_SESSION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0212976F-BD3D-8BAD-F240-FDF45985D3F2</referredTableID>
+<keyObject>653AC7F8-EAB1-FC2B-24B3-A6D99702EBFB</keyObject>
+<referredKeyID>653AC7F8-EAB1-FC2B-24B3-A6D99702EBFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_session_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

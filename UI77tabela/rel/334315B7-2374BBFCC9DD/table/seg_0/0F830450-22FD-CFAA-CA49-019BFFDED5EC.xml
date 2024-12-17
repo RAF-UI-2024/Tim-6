@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F830450-22FD-CFAA-CA49-019BFFDED5EC" name="GAME_REVIEWS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:47:24 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="review_id" id="616CF627-D590-6261-B120-A696CD73C8E2">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:47:42 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="51277A1C-02A2-14CD-E6E9-30ACC5D82664">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:48:01 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review_text" id="EC34E172-4320-34D4-C5F6-2D5A7DB11AA3">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:48:21 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review_date" id="92250780-4182-1850-E28B-7177BE7E5D85">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:48:37 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="AA4E089B-E3D7-5ACE-152D-4C937E1DCE9D">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:49:01 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67744360-CA33-B950-DF18-BA81CDBA6305" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="game_id" id="827FF22A-28FB-4B29-666E-806965136F34">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:49:13 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="622D6F1A-CD2B-375E-89F5-FC705D244AFE" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="127A3EA8-F4A4-ECB1-D265-EDB3D4AD67A4" name="GAME_REVIEWS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:49:46 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="616CF627-D590-6261-B120-A696CD73C8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21B92C61-0BEA-1E89-31B1-061D736135ED" name="GAME_REVIEWS_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:49:19 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA4E089B-E3D7-5ACE-152D-4C937E1DCE9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF1F692C-B257-0BBE-B062-D01DD09D855F" name="GAME_REVIEWS_GAME_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:49:34 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="827FF22A-28FB-4B29-666E-806965136F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

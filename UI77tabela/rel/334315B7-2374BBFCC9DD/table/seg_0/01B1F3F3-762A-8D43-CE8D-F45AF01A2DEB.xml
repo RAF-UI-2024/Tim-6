@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01B1F3F3-762A-8D43-CE8D-F45AF01A2DEB" name="DRIVERS_LICENSE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>B327C61D-A058-B74A-2E50-9A8E442CDE8E</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="E9E87D7F-B0A7-28F1-0828-F3C1584E8561">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>BC7DAFE1-1914-6B34-EC6C-28B16304E365</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="740D9ABA-34EB-4CB2-BC94-D45C4322A442" referredColumn="17BE76E8-258F-D4D7-DA28-925A3BD82BA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93B3FE0D-1CA5-4602-35F3-2594773B10BA" name="DRIVERS_LICENSE_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>869312A1-7010-7491-05D0-B201FAD3DDAB</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9E87D7F-B0A7-28F1-0828-F3C1584E8561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83D2840F-9A43-1879-AAED-92DD08D5AC4D" name="DRIVERS_LICENSE_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>CC53501F-900E-A639-388B-03C3DAF94B6B</generatorID>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9E87D7F-B0A7-28F1-0828-F3C1584E8561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

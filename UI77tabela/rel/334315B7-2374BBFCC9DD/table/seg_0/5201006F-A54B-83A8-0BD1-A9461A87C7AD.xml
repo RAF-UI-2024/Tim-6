@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5201006F-A54B-83A8-0BD1-A9461A87C7AD" name="GAME_STATISTICS">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:42:05 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stats_id" id="E0639E9A-7A79-8401-1E29-76F8ABDC6C3F">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_rounds_played" id="081A0EDC-F2A4-88EF-2D13-7E9BF1EEC53E">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="average_win_percentage" id="83FDD055-2498-FDF1-267C-A381936FEFD3">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="game_id" id="6F6CE61F-300A-472D-9809-0EB6E52852BA">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1828EA-50D4-C03F-6832-FA9EB3717BFF" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A331D1-F367-ECED-D98B-9F307719CB97" name="GAME_STATISTICS_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0639E9A-7A79-8401-1E29-76F8ABDC6C3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="547BDCD1-DBE2-C7EE-0443-1DA198FC1C68" name="GAME_STATISTICS_GAME_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-12-04 19:44:45 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F6CE61F-300A-472D-9809-0EB6E52852BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

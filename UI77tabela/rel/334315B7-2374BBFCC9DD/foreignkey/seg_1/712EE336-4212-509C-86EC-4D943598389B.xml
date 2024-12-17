@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="712EE336-4212-509C-86EC-4D943598389B" containerWithKeyObject="83D27B90-45C8-E81C-0EA7-7CAA2817E635" localFKIndex="CA3094C3-E064-6F4F-489D-38B68741AF7F" name="FRAUD_ALERTS_ALERT_TYPES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:02:21 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<referredTableLongName>ALERT_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>467F6121-B91B-2DC9-3AAA-100DB78DDC9B</referredTableID>
+<keyObject>D6354507-D8D9-AC55-170D-36898135D4D3</keyObject>
+<referredKeyID>D6354507-D8D9-AC55-170D-36898135D4D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>type_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

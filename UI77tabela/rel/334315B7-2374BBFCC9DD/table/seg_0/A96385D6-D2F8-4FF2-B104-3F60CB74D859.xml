@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A96385D6-D2F8-4FF2-B104-3F60CB74D859" name="PAYMENT_METHODS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:22:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_80</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="methods_id" id="FF4099C4-C6C9-0266-22D1-FF22BD1917DB">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="39394504-7C1D-B426-3FFB-651EFF0B07EA">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181AABB1-B2E6-835B-C197-99B303B8FE8D" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="COL_224" id="26583DFB-73E7-28B1-BFE9-3B92B3F0C7CB">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_document_id" id="4E658C12-2327-5B5C-85EA-09FA61B64335">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D90C014-DDB8-1597-F640-5D85D3A1BDFE" referredColumn="2B3F2124-8009-07D9-8973-CCE3FD11A9EF"/>
+</associations>
+</Column>
+<Column name="document_id" id="8DB20D2D-2C73-E57F-A05F-5F87ACD9707C">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46935A06-669B-22CA-91F1-AE5B53569C47" referredColumn="17BE76E8-258F-D4D7-DA28-925A3BD82BA2"/>
+</associations>
+</Column>
+<Column name="is_verified" id="C82DAF95-BF58-B5D3-251B-F1A8B566BDE7">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:52 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_available" id="8C28FDF5-7A7C-C913-C3DA-E9D94CB39D15">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:28:12 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DABB0379-1B34-9EBD-C8F6-EC32092B9AA7" name="PAYMENT_METHODS_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:27:25 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4099C4-C6C9-0266-22D1-FF22BD1917DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95BEAAE4-EBFB-2062-47D0-A15E76307857" name="PAYMENT_METHODS_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:28:38 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39394504-7C1D-B426-3FFB-651EFF0B07EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0040EAE8-9608-0A39-B356-049844AFA603" name="PAYMENT_METHODS_PAYMENT_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:29:02 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E658C12-2327-5B5C-85EA-09FA61B64335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F20E003D-ACF4-658C-98E2-FACA1B1AE24F" name="PAYMENT_METHODS_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:29:13 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB20D2D-2C73-E57F-A05F-5F87ACD9707C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B20F622B-36B7-0A33-DB6D-0E5E4B7719C7" containerWithKeyObject="BE322B7E-34A9-653A-58CB-3950323E2870" localFKIndex="5F63E083-C745-81EA-164F-6A584BA32BF4" name="DAILY_REWARDS_REWARD_TYPES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:40:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<referredTableLongName>REWARD_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>93F424A9-AFE2-3803-D728-E81DCB575A79</referredTableID>
+<keyObject>FEE3FE8D-84DE-A0B7-0164-14D5A427DEEE</keyObject>
+<referredKeyID>FEE3FE8D-84DE-A0B7-0164-14D5A427DEEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reward_type_id </refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE322B7E-34A9-653A-58CB-3950323E2870" name="DAILY_REWARDS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:33:19 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_84</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reward_id" id="4B1EC31F-57EB-7A50-C9EC-D7328BF09C4B">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:34:35 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="AAC9D176-57A5-C974-C88E-58221994E398">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:34:35 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C42770C8-C26E-3C51-E937-C969E26F8DC9" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="reward_date" id="B13A1FA4-8E7A-D5DB-207E-15B0E2E0BFC0">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:34:48 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="claimed " id="A960E410-0DD7-816F-334A-C0347AC76040">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:35:40 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_id" id="FB654B13-943A-51C2-E576-5DA2BAF22895">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:36:19 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20F622B-36B7-0A33-DB6D-0E5E4B7719C7" referredColumn="8C319509-7760-96C5-BAA9-266CFAF66090"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92FDD624-833C-A36D-7506-DAF49AE25247" name="DAILY_REWARDS_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:34:35 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1EC31F-57EB-7A50-C9EC-D7328BF09C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40895A80-0684-4BA3-B0D4-160E7F753929" name="DAILY_REWARDS_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:38:08 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC9D176-57A5-C974-C88E-58221994E398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F63E083-C745-81EA-164F-6A584BA32BF4" name="DAILY_REWARDS_REWARD_TYPES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:40:22 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB654B13-943A-51C2-E576-5DA2BAF22895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9EA22466-70F9-CC2A-3F38-52C310CFBDD7" name="PROMOTION_PARTICIPANTS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:25:51 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<ordsAlias>table_101</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_id" id="E5594E01-9F23-07AB-7806-2A7D4E29E9B6">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:26:06 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D3858D3-104F-EBCB-3318-5818438F97EB" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="promotion_id" id="E1191B84-CA94-D6CE-0764-C37AB8F70C8D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:26:51 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E052A9AB-9DB2-56BD-411C-ECC948F372E7" referredColumn="8C733A44-6315-D29E-574D-8689B3ED86C3"/>
+</associations>
+</Column>
+<Column name="participation_date" id="0AD58BC1-05F5-9F71-C529-C56BFAE64CBA">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:26:51 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F926DEB9-B401-0F67-2FF7-14E69048B41E" name="PROMOTION_PARTICIPANTS_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:26:06 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5594E01-9F23-07AB-7806-2A7D4E29E9B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E7F8B12-AF80-8328-A3E7-65E87E475271" name="PROMOTION_PARTICIPANTS_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:26:59 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5594E01-9F23-07AB-7806-2A7D4E29E9B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D247727-F3B6-B021-67D1-8F61680E4492" name="PROMOTION_PARTICIPANTS_PROMOTIONS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 17:27:29 UTC</createdTime>
+<ownerDesignName>UI77tabela</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1191B84-CA94-D6CE-0764-C37AB8F70C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
