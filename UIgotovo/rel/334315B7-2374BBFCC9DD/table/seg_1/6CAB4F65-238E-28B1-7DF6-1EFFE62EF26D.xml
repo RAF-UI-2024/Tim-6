@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6CAB4F65-238E-28B1-7DF6-1EFFE62EF26D" name="PROMOTION_STATUS">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:12:37 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_id" id="32397D2D-1236-E140-E0C1-B1A04C61DBFF">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:13:09 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="promotion_id" id="01E4E0B4-9E4E-2A5A-5D8A-7D858E2BB7BE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:13:42 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8C733A44-6315-D29E-574D-8689B3ED86C3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52A05F51-FE5C-9955-F32B-27B832A86691" referredColumn="8C733A44-6315-D29E-574D-8689B3ED86C3"/>
+</associations>
+</Column>
+<Column name="active" id="D1531307-DD9D-E512-F860-F844AB406B64">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:13:42 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="A1720DD3-EC0C-D573-8699-94962A9920AF">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:14:22 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="383190F3-0A13-6557-25AC-4C63D6E3DA08">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:14:22 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="919A10B4-865D-3B11-4177-1982247491E1" name="PROMOTION_STATUS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:13:09 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32397D2D-1236-E140-E0C1-B1A04C61DBFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8E5463D-C469-7F2C-F0C7-83A09886ACFA" name="PROMOTION_STATUS_PROMOTIONS_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:14:22 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01E4E0B4-9E4E-2A5A-5D8A-7D858E2BB7BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

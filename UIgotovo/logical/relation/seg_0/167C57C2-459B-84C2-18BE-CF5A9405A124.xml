@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CHAT_HISTORY_ACCOUNT_FK" directorySegmentName="seg_0" id="167C57C2-459B-84C2-18BE-CF5A9405A124">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>A450CA12-AD49-6BFB-0BDD-ED08A3779298</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>04062ADD-5BD3-DA2D-A87D-B87411D7905C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7DD5506-CA68-B33B-BA66-2BFF4415B5AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

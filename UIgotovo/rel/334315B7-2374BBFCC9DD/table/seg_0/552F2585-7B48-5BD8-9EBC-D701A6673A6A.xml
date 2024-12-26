@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="552F2585-7B48-5BD8-9EBC-D701A6673A6A" name="PERSONAL_ID">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>05B69148-1372-8E6E-E0EC-DA6110E841C4</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="6C2BE229-8674-325F-A614-F24F94BD1926">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>E18D269C-8058-48C1-700F-0C9C79DD2CB7</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>17BE76E8-258F-D4D7-DA28-925A3BD82BA2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF72FBA1-580F-0608-80A5-C724D81D5669" referredColumn="17BE76E8-258F-D4D7-DA28-925A3BD82BA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B4355C8-AC9E-CC6A-C2D7-EFD0F5B36A40" name="PERSONAL_ID_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>24136E02-BEF7-F105-FC41-D2EA7E9F8801</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2BE229-8674-325F-A614-F24F94BD1926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7322B180-4D2B-2906-DF2D-61618E799601" name="PERSONAL_ID_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>E5634C19-9CA9-12F5-A193-E83C2FC11FE8</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2BE229-8674-325F-A614-F24F94BD1926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

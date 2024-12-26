@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13C0EF62-CEFA-7468-4F6E-380B20A4EB08" name="LOSS_LIMIT_LIMIT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>0A28B212-9918-41E8-B38C-70B15D21F8FC</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>D973A130-7DFC-C0B9-A5C7-025B2AA318B2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5E42BA7A-BCF9-03EF-8EF1-81C5C6FBBD57</localFKIndex>
+<keyObject>098D7B39-7171-0D2F-2F76-955D2189F99F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1F1E689-4F8F-FF81-5649-2B81F034421F" name="LOSS LIMIT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:54:56 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dodatno polje" id="87745F59-4E50-EE47-4D3B-E6CE12EBE101">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:55:20 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="limit id" id="6343BDA1-305A-3D0E-37E0-7A8E06C09E24">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:58:05 UTC</createdTime>
+<generatorID>0A28B212-9918-41E8-B38C-70B15D21F8FC</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>C10664C3-283A-E880-6066-923B75135631</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1388B025-4970-07DC-EF1D-5508AFD6B90F" name="LOSS_LIMIT_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:55:32 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6343BDA1-305A-3D0E-37E0-7A8E06C09E24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

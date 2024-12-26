@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A222CDF7-88FA-89D2-4954-D85A0C88106C" name="PROMOTION_DESCRIPTION">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:15:04 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="description_id" id="09F88638-1E4B-5E7C-82DB-FCF759B1E8B3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:16:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="promotion_id" id="E093DF44-36FD-52E6-906E-1A5D72ED361A">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:16:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8C733A44-6315-D29E-574D-8689B3ED86C3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E11BDC6-9870-608D-E768-61005C87B716" referredColumn="8C733A44-6315-D29E-574D-8689B3ED86C3"/>
+</associations>
+</Column>
+<Column name="description" id="E28A9888-C522-C0BA-7B16-95A34D9B7626">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:16:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F3BAC4C-28CF-6D06-5A0D-7DDA68DA5D0A" name="PROMOTION_DESCRIPTION_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:16:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F88638-1E4B-5E7C-82DB-FCF759B1E8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8835017F-83F7-9708-68D5-0D8C71227951" name="PROMOTION_DESCRIPTION_PROMOTIONS_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:16:12 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E093DF44-36FD-52E6-906E-1A5D72ED361A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

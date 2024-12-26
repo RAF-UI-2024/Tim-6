@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6454D7EE-658F-0E71-DDFB-53BB69CA784D" name="TOURNAMENT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>800A4DEF-2869-25D7-5AE6-742AA3DCA49C</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tournament id" id="05A78C53-DBC5-C3AE-ACBF-48817E033114">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>F8E968CE-20D5-334B-6141-098615DF0745</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="C622AC6B-EA69-0D57-EFEA-437E6F79C5EC">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>82B272B1-5424-F3FE-7657-08B52FBC1F97</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="start date" id="F4BF603E-71EA-3607-33E1-8006D7BFE1F1">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>753B76C4-CA29-5D7A-5D3B-E2A2647E4037</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="end date" id="62DCD8D6-A63E-AB9A-9080-DD0697C8F621">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>9FB11D4B-401A-32E0-4C0D-CA7C8A5EA6F8</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="game id" id="632C3C8E-C717-0AB8-626F-55A038DAEF2A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>8A68181F-8B50-B268-E94F-593DD0570DBE</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>E0352BBF-E3AB-C16E-8EF8-6336AD1823D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2290A24-9A07-F66F-2750-17AA88A52D24" name="TOURNAMENT PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>224B944C-6932-E328-81C9-6543A97C4FC5</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05A78C53-DBC5-C3AE-ACBF-48817E033114</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

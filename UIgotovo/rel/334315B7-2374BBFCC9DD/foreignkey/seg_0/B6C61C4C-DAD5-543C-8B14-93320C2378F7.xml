@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6C61C4C-DAD5-543C-8B14-93320C2378F7" name="BLOCKAGE_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:08:23 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>8291D159-3033-97DC-2874-AAC750B5A4DE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>539CA3A3-CBD2-02DE-70EC-5587CB4C916B</localFKIndex>
+<keyObject>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5039D63D-FC9E-289D-8DBE-9CB9E7D3ADEB" name="EVENT_PARTICIPATION">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:22:25 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_participation_id" id="2A4C9383-992A-DFC5-C2EA-6D2218CF4116">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:22:59 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_id" id="03D0EDD5-560E-0BCD-9817-D25BCDB7A4FE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:23:10 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D7A21266-0AD6-7FFA-36AD-8DEE438B8E16</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80105011-7B1A-44AB-DC6D-883E1C26148E" referredColumn="D7A21266-0AD6-7FFA-36AD-8DEE438B8E16"/>
+</associations>
+</Column>
+<Column name="user_id" id="23D3315C-BD48-27C8-FB95-230C4DFF9176">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:23:30 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F00BDC30-C22D-6EC9-5B7A-5F73CBEB9472</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D98E6FAC-711A-4167-735C-DED080FECAC7" referredColumn="F00BDC30-C22D-6EC9-5B7A-5F73CBEB9472"/>
+</associations>
+</Column>
+<Column name="participation_date" id="0A3A963E-9520-DD84-B883-2BDA90DD70F9">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:23:46 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="participation_status" id="62AC872B-B872-6AFF-826E-A4ADE7ED8EE2">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:24:08 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5D00EE2-9E29-86AD-7100-B21493DFE758" name="EVENT_PARTICIPATION_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:22:59 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A4C9383-992A-DFC5-C2EA-6D2218CF4116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04172BA0-B795-4A12-AA8F-B6D0CB0BFE77" name="EVENT_PARTICIPATION_USER_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:24:22 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23D3315C-BD48-27C8-FB95-230C4DFF9176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7B969C3-E899-4B50-B17A-9B5D1DDAC9D8" name="EVENT_PARTICIPATION_EVENTS_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:24:53 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03D0EDD5-560E-0BCD-9817-D25BCDB7A4FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

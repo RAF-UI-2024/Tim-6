@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C64782A4-74BC-9793-5008-9C636978F21A" name="PAYMENT_DOCUMENT_BANK_DETAILS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:29:14 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>32942EDC-621E-8FBA-7851-F27FEC620821</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E977F8D3-07CB-A6C0-27D2-D4636A43DFA4</localFKIndex>
+<keyObject>B616FD0D-826B-17C1-67DE-C440A6455B47</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

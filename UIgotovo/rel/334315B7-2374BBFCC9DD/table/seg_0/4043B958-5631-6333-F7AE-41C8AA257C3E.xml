@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4043B958-5631-6333-F7AE-41C8AA257C3E" name="DEVICE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:19:34 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="device_id" id="261B31EA-1BB0-31B6-51B8-72AD29A76484">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:20:02 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="os_type" id="100D4BDF-C377-7F07-8DBD-0036C0F32AF3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:27:52 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_ip" id="88B52C39-E8A8-F8EE-D00C-CE4FDEC279F4">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:27:52 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_used_at" id="94AC2B6A-8122-0B99-77D7-3095FA22BD78">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:27:52 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="2BB8B9E5-C33D-0156-7D62-74FED179F5E3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:24:01 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBC74BBF-FD99-F8EE-F024-38089DC1295A" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C857AA5A-F801-3A06-389A-F264C989EFC2" name="DEVICE_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:20:02 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261B31EA-1BB0-31B6-51B8-72AD29A76484"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE334BA-BB95-1192-EBCE-D9DD0D71D52C" name="DEVICE_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-11-26 20:24:01 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB8B9E5-C33D-0156-7D62-74FED179F5E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

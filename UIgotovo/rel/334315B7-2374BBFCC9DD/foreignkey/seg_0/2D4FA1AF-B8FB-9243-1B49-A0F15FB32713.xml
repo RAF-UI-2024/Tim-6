@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D4FA1AF-B8FB-9243-1B49-A0F15FB32713" name="ACCOUNT_CURRENCY_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>60064B66-A419-B758-DBF0-0188364CF509</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>F7D051E3-6D54-07C0-6C9D-AC150F60B423</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B47205EA-1363-13A6-3E43-EDBB24DF9AB6</localFKIndex>
+<keyObject>F3D695EF-7041-3F20-A0E7-FFFAE3495968</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

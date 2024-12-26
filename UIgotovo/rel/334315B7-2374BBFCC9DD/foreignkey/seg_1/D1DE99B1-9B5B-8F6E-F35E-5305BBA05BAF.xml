@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D1DE99B1-9B5B-8F6E-F35E-5305BBA05BAF" name="PLAYER_SEGMENTATION_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:36:25 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>A0841095-EB0E-7626-5995-AD501E3FEA55</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>067252D4-F92E-D420-3E7E-AC9E7EFD3DFF</localFKIndex>
+<keyObject>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

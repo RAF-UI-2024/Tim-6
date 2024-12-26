@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFFFEC35-9CBF-2577-F991-805FA8E8ED00" name="ERROR_LOGS_LOGS_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:44:14 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>F2112F41-E4E4-ED91-DD71-6A3EED850AA2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F6AADD21-C7FF-48FA-4CB6-2DDECE0AC463</localFKIndex>
+<keyObject>E1D07AD6-F908-E206-A414-8DCEE3A512C8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23D01114-473B-F40E-4A51-FAA44E777FCA" name="LOCATION_GAME_LAUNCH_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>F190EA8C-530D-5B17-B0CB-52E0D4C2CE8F</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>66FAA704-2BC3-9D6D-45C6-3FA0A3227A6F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>517F6706-8450-3076-B2BE-C744FF0787CD</localFKIndex>
+<keyObject>AECE6901-D405-BB08-DCD2-5B7AA8CEF255</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76156195-34A5-D4A8-AFF9-04C00F1F488D" name="FAVORITE_GAMES">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:14:10 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="favorite_id" id="95A9F02A-9240-45F4-8604-599B15C9A0EB">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="08634B3D-BB48-ED6C-127D-E7D0064F6603">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:18 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09850787-7F07-7A8E-C9B8-354AD2F190C1" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="game_id" id="0CBE5B7C-E98E-47BE-9A0E-90AE98776498">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:27 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>19AA7A02-0A11-2EEB-D593-56E2AEEECB2D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC1DA57D-E43A-3C89-019D-95F0AF485A32" referredColumn="19AA7A02-0A11-2EEB-D593-56E2AEEECB2D"/>
+</associations>
+</Column>
+<Column name="start" id="A229E7DF-DA27-9C43-CFE7-3F25865C8C1D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:14:46 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end" id="4F76A448-1A36-16DE-16A9-A294EBA232D2">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:14:46 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5C644D9-12BB-6287-983C-BDB130BAC758" name="FAVORITE_GAMES_PK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95A9F02A-9240-45F4-8604-599B15C9A0EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAD41D26-73B4-6D16-F0CF-7144DA716281" name="FAVORITE_GAMES_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:35 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08634B3D-BB48-ED6C-127D-E7D0064F6603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="229A66E5-0878-E279-3C91-00E1E6AFB5E7" name="FAVORITE_GAMES_GAME_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 15:15:41 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CBE5B7C-E98E-47BE-9A0E-90AE98776498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="8AB92D73-7E9F-B75D-2A4F-F4A63C7D1BF1" name="USER_LOGIN_HISTORY_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:59:56 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>24102267-81E1-8416-EA36-B7FF9D14AA91</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>811F9220-EF30-FCB4-74B0-4ECFD488FDF9</localFKIndex>
+<keyObject>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

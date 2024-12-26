@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B9B7942-C793-0727-BF00-9A2E8068C5D3" name="PASSPORT_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>F4D2AC6F-C5CC-F80B-ED59-194C85499DC5</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>CB8D6C3C-07FA-9D4D-DEA5-20BD050331FF</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E1746068-7389-0F70-7173-689A9184E441</localFKIndex>
+<keyObject>F003CD3B-D6CD-96F0-8AE3-E06DB24AE721</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

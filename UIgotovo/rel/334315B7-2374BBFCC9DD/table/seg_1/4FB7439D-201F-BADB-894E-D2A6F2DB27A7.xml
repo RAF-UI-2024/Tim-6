@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="4FB7439D-201F-BADB-894E-D2A6F2DB27A7" name="LOGS">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:37:14 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="log_id" id="24BBB046-B9FE-9F02-4694-9C83AA8F07C9">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:37:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="3464F417-38F2-8136-99ED-F9A01E93BA27">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:40:02 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="log_time" id="24148777-6F38-6E1E-F20F-9A4F1A9FE632">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:48:23 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acount_id" id="42279C90-B084-9CF7-6C1A-E0455CE06645">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:42:51 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FBB6F39-3AC0-D236-52C2-5208762CED58" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1D07AD6-F908-E206-A414-8DCEE3A512C8" name="LOGS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:37:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24BBB046-B9FE-9F02-4694-9C83AA8F07C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27BA73EF-BEE2-1C6B-3F78-A8C81EEEE851" name="LOGS_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:43:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42279C90-B084-9CF7-6C1A-E0455CE06645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

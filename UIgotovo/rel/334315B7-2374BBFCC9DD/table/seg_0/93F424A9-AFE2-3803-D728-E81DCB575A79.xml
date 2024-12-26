@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93F424A9-AFE2-3803-D728-E81DCB575A79" name="REWARD_TYPES">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:39:03 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reward_type_id " id="8C319509-7760-96C5-BAA9-266CFAF66090">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:39:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title " id="E05D7234-F58B-2465-23C2-5B369510470E">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:39:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description " id="0B1D0FD4-975B-61CD-0283-6EA8978A7CDC">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:39:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEE3FE8D-84DE-A0B7-0164-14D5A427DEEE" name="REWARD_TYPES_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 16:39:45 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C319509-7760-96C5-BAA9-266CFAF66090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

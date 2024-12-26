@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="68CD2222-15CE-DE8B-1E7B-B43059D5B5A9" name="GAMING_BLOCK_BLOCKAGE_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:10:31 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>21219240-812A-B688-37A6-38EFFB5656BD</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>C86CA967-425E-9EB5-3388-D173382BC9FF</localFKIndex>
+<keyObject>5EE3A684-50DD-97E3-457B-98A5446C16E3</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

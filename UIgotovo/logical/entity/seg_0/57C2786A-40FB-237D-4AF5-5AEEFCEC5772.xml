@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57C2786A-40FB-237D-4AF5-5AEEFCEC5772" name="USER SUSPENSIONS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>AC204CEB-379E-BD43-31E0-0ED07C1895EE</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="suspension id" id="461BB9F1-D6BC-B24E-7705-5EB12D129D47">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>816093A6-8DCB-7688-E889-8703257E0025</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="reason" id="D46EFA94-BCB8-FBD7-148D-732773F38754">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>E3930E4D-8F5E-9324-D780-0A3DCC5AEDFE</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+</Attribute>
+<Attribute name="suspended at" id="A080A9CA-D097-1665-2A35-86D3FDB35143">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>D21C218C-7A7C-EA22-DD7D-19922876A3A8</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="account id" id="DF34CA3A-BC66-7753-ABB9-ADB70652D82F">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>28AA8DCE-7C8B-15A9-B907-0FD43D703415</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<referedAttribute>2258768A-3338-C12D-4AF6-0B90EACD67B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D2C113E-9055-64E3-8B61-FE6A597293EE" name="USER SUSPENSIONS PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>AF8B809D-CDF3-41C8-1CF6-E3ABEF47F757</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>461BB9F1-D6BC-B24E-7705-5EB12D129D47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

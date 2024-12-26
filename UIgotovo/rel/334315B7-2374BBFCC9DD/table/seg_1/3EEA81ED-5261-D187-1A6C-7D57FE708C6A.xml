@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="3EEA81ED-5261-D187-1A6C-7D57FE708C6A" name="EVENT_TYPES">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:58:14 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="type_id" id="E6B4B19D-38F5-7651-6908-BADE37C7A673">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:58:49 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriptiom" id="5E7B5BF8-F006-3E9E-DEC6-524B70DE6DF4">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:58:49 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6664D4D-43D8-148A-8389-EB096371935E" name="EVENT_TYPES_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:58:49 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B4B19D-38F5-7651-6908-BADE37C7A673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

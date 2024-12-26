@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6486293-1E50-EA78-7134-970BB464A90F" name="APP_LOGS">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:45:28 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="log_id" id="5CA4E3E5-91DC-00C1-3A44-41C71D67A2C9">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:47:27 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>24BBB046-B9FE-9F02-4694-9C83AA8F07C9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDED29A5-64D3-AF9D-8186-48BE1D0D9260" referredColumn="24BBB046-B9FE-9F02-4694-9C83AA8F07C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FDD0E25-6B94-C133-382C-9CB80298B104" name="APP_LOGS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:19:55 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA4E3E5-91DC-00C1-3A44-41C71D67A2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64838CBC-8EE0-91B9-7118-82F9BA89532B" name="APP_LOGS_LOGS_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 20:47:47 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA4E3E5-91DC-00C1-3A44-41C71D67A2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

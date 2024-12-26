@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="CA2282F5-85B8-C677-B8D9-D105EE84CCE4" name="RESPONSIBLE_GAMEBLING_ALERTS">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:39:10 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="alert_id" id="6808C949-A3D2-CE32-496A-498A8A52AA77">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:40:06 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alert_date" id="618FF4F4-6D30-AA2D-C54D-2B180A0176A4">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:41:44 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolution_status" id="09B3B9E2-2E45-64EB-1CB8-C79402D2F3FB">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:41:44 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="details" id="B2D3B5B9-5786-671F-B293-B1E9E45D356A">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:42:05 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_id" id="3FD4084B-41E7-FBFE-E2C3-40ED9B6710A3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:42:23 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C9BBE610-031A-FAA4-AA1C-7C606AEF2A39</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F97BDEF-965D-E457-8873-A3CB331D5764" referredColumn="C9BBE610-031A-FAA4-AA1C-7C606AEF2A39"/>
+</associations>
+</Column>
+<Column name="account_id" id="0A7A27AD-8A35-8503-5CB8-7B34F8584D10">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:42:53 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79184B04-46A1-E4B2-80B6-38382D5EC396" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3694036-7BF7-E176-8EA8-752DD84F8359" name="RESPONSIBLE_GAMEBLING_ALERTS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:40:06 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6808C949-A3D2-CE32-496A-498A8A52AA77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D618F578-D86A-5B00-E395-9F1773BF07BF" name="RESPONSIBLE_GAMEBLING_ALERTS_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:43:00 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A7A27AD-8A35-8503-5CB8-7B34F8584D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85F299F7-43DB-541B-9FB0-A450834D78EC" name="RESPONSIBLE_GAMEBLING_ALERTS_ALERT_TYPES_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:43:33 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FD4084B-41E7-FBFE-E2C3-40ED9B6710A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

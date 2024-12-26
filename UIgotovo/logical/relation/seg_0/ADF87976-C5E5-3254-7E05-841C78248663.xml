@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BILLING_INFORMATION_ACCOUNT_FK" directorySegmentName="seg_0" id="ADF87976-C5E5-3254-7E05-841C78248663">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>7887AAEB-ADAE-F504-C6F8-D74CDDB6FF73</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>04062ADD-5BD3-DA2D-A87D-B87411D7905C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6C92A9A4-B807-01DB-206F-D2A6661DFAE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

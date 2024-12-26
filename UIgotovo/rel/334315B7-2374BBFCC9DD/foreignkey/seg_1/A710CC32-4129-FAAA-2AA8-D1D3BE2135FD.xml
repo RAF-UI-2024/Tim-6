@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="A710CC32-4129-FAAA-2AA8-D1D3BE2135FD" name="GAME_LAUNCH_CURRENCY_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:47:13 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>9C5F799F-21CB-692C-B0C4-523177EAE6DD</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>3E7FF58D-9063-ACA8-33ED-030F39D37D81</localFKIndex>
+<keyObject>F3D695EF-7041-3F20-A0E7-FFFAE3495968</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

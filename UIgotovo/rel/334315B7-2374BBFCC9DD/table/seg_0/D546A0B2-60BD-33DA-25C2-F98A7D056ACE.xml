@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D546A0B2-60BD-33DA-25C2-F98A7D056ACE" name="VIP_MANAGER">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:55:08 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="E840EC29-566D-7D60-506B-4A80DDE0EADE">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:57:49 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA1D092D-22B4-B277-D0A4-D28426C18F0C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DC86773-DC44-E286-3767-4E03697485C9" referredColumn="FA1D092D-22B4-B277-D0A4-D28426C18F0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9DA69CB-9125-62AE-8C98-9ADF512778AF" name="VIP_MANAGER_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:58:44 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E840EC29-566D-7D60-506B-4A80DDE0EADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFE2D76B-DD95-6C66-A03A-84729FA17C00" name="VIP_MANAGER_CHARACTER_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:57:49 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E840EC29-566D-7D60-506B-4A80DDE0EADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

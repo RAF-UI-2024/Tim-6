@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96B73640-C60C-07F5-5E9B-FDA4B6A57395" name="DEPOSIT_LIMIT">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>C6B3672A-E0DB-0041-A93D-1B74B442EEF5</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="limit_id" id="E41C1196-E4BC-E494-9626-6EA15E5EBAC9">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>F933F5D8-6995-B27E-A2B8-5DD7D60797F5</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E14F2453-A516-169B-AEC6-EB94E9C38BE3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB324ABE-6FB9-4DF0-A59D-9386193541B2" referredColumn="E14F2453-A516-169B-AEC6-EB94E9C38BE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92899886-D38F-BD8F-5607-790386CFF699" name="DEPOSIT_LIMIT_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>767BEA70-1D1D-CE4C-3EC1-DEBF15D839D9</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41C1196-E4BC-E494-9626-6EA15E5EBAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93AFA1C4-54E9-BBFD-6CBD-94B74E389F5A" name="DEPOSIT_LIMIT_LIMIT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>D4D39242-2086-E885-D89E-F4DC4DF0CD5F</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E41C1196-E4BC-E494-9626-6EA15E5EBAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRANSACTION ACCOUNT FK" directorySegmentName="seg_0" id="A017F4AF-7C92-4F93-952D-8D0BF37077CF">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:17:24 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>04062ADD-5BD3-DA2D-A87D-B87411D7905C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4417893A-4A8B-5A3D-832D-CA8E37A65084</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

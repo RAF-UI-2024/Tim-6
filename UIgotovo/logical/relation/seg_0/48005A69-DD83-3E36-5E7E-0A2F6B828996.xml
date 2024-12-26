@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TOURNAMENT_PARTICIPANTS_ACCOUNT_FK" directorySegmentName="seg_0" id="48005A69-DD83-3E36-5E7E-0A2F6B828996">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-28 19:13:21 UTC</createdTime>
+<generatorID>F4F153B1-397A-AA16-ECEC-B78D114C553F</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>04062ADD-5BD3-DA2D-A87D-B87411D7905C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>91F5C050-50AE-FBE1-698B-C07DB97B2464</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26A668A2-28BE-28A5-9230-BF56256AA706</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

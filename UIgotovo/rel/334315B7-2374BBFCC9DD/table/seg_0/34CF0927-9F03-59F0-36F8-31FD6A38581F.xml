@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34CF0927-9F03-59F0-36F8-31FD6A38581F" name="GAME_CATEGORY">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>99B93526-942A-6B86-DB8D-F6426D77F49C</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_id" id="AEC391B6-A80E-1FB7-4002-976057FE2A94">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>B541BE30-997E-7D57-FC1C-BB8A78B11F42</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="36AEACA6-C66C-C3F5-A7A9-606509DF5917">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>CCCF2618-B6BF-9CA0-6330-87D4B585FEE8</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A7CF739-3FCC-DE29-3055-41DA4975EB9E" name="GAME_CATEGORY_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:43 UTC</createdTime>
+<generatorID>362FECE3-4391-DDA2-F308-70A64887B309</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC391B6-A80E-1FB7-4002-976057FE2A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="467F6121-B91B-2DC9-3AAA-100DB78DDC9B" name="ALERT_TYPES">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:31 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="type_id" id="C9BBE610-031A-FAA4-AA1C-7C606AEF2A39">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:02:07 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="29927FD1-D4A6-60E6-4074-72A2E9932EBF">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:02:07 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6354507-D8D9-AC55-170D-36898135D4D3" name="ALERT_TYPES_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:02:07 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BBE610-031A-FAA4-AA1C-7C606AEF2A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

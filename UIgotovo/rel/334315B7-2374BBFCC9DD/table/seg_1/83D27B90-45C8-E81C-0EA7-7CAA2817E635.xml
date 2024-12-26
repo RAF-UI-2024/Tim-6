@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="83D27B90-45C8-E81C-0EA7-7CAA2817E635" name="FRAUD_ALERTS">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 20:59:23 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fraud_alert_id " id="9A9CA4C2-660E-B052-2214-4F244A5D3154">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_id" id="A9CD6CA7-0BB4-DAE0-927B-01DEFD6BD7B2">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D7A21266-0AD6-7FFA-36AD-8DEE438B8E16</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6355651E-E60E-DF84-9271-56B61E9623A5" referredColumn="D7A21266-0AD6-7FFA-36AD-8DEE438B8E16"/>
+</associations>
+</Column>
+<Column name="account_id" id="0D88CE27-B23F-9ECA-2BB1-397B849A5F2D">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D01E405-934E-7AA0-436B-898656860D3B" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+<Column name="detected_at" id="9B1E9936-6207-67B4-4969-DADE0898336A">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_id" id="039C744F-C5E0-40CF-8E6F-D8FE415FCDD2">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C9BBE610-031A-FAA4-AA1C-7C606AEF2A39</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="712EE336-4212-509C-86EC-4D943598389B" referredColumn="C9BBE610-031A-FAA4-AA1C-7C606AEF2A39"/>
+</associations>
+</Column>
+<Column name="employee_id" id="450F2BEE-3FAD-FEC3-9016-0E15CB51FF67">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:03:01 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FA1D092D-22B4-B277-D0A4-D28426C18F0C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18332EAD-BF88-3EE1-1053-D5D5EC703440" referredColumn="FA1D092D-22B4-B277-D0A4-D28426C18F0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C130205D-38E1-E79A-1FAC-EF16C3E8F4B0" name="FRAUD_ALERTS_PK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A9CA4C2-660E-B052-2214-4F244A5D3154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F06D1A-B390-FD94-C5BA-59C87BB02B3D" name="TABLE_119_ACCOUNT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D88CE27-B23F-9ECA-2BB1-397B849A5F2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A424731D-9394-AB61-EFEB-ABAD6571E47F" name="TABLE_119_EVENTS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9CD6CA7-0BB4-DAE0-927B-01DEFD6BD7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA3094C3-E064-6F4F-489D-38B68741AF7F" name="FRAUD_ALERTS_ALERT_TYPES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:02:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="039C744F-C5E0-40CF-8E6F-D8FE415FCDD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AEC7E82-4B2E-C44A-E158-0EAB776F4C4C" name="FRAUD_ALERTS_EMPLOYEES_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:03:01 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="450F2BEE-3FAD-FEC3-9016-0E15CB51FF67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

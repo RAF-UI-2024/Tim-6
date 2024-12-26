@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB324ABE-6FB9-4DF0-A59D-9386193541B2" name="DEPOSIT_LIMIT_LIMIT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>D4D39242-2086-E885-D89E-F4DC4DF0CD5F</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>96B73640-C60C-07F5-5E9B-FDA4B6A57395</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>93AFA1C4-54E9-BBFD-6CBD-94B74E389F5A</localFKIndex>
+<keyObject>098D7B39-7171-0D2F-2F76-955D2189F99F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

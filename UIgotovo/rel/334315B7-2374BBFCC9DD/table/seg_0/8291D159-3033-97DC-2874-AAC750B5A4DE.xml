@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8291D159-3033-97DC-2874-AAC750B5A4DE" name="BLOCKAGE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:05:09 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="blockage_id" id="BE31A668-F2DB-94D6-50C7-C0CCCA1249F9">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:05:40 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="624E9B02-EBE7-8881-E7CB-157C606235B3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:07:13 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time" id="C9E09AB4-CF6B-538D-CE15-11E17422B0DE">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:07:47 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="8F7C9155-322B-7C1E-4D88-C0C7A87C38A3">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:08:13 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6C61C4C-DAD5-543C-8B14-93320C2378F7" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EE3A684-50DD-97E3-457B-98A5446C16E3" name="BLOCKAGE_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:05:40 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE31A668-F2DB-94D6-50C7-C0CCCA1249F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="539CA3A3-CBD2-02DE-70EC-5587CB4C916B" name="BLOCKAGE_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:08:23 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7C9155-322B-7C1E-4D88-C0C7A87C38A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

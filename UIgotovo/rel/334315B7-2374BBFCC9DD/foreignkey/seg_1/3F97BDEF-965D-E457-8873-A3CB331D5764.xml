@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="3F97BDEF-965D-E457-8873-A3CB331D5764" name="RESPONSIBLE_GAMEBLING_ALERTS_ALERT_TYPES_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:43:33 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>CA2282F5-85B8-C677-B8D9-D105EE84CCE4</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>85F299F7-43DB-541B-9FB0-A450834D78EC</localFKIndex>
+<keyObject>D6354507-D8D9-AC55-170D-36898135D4D3</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

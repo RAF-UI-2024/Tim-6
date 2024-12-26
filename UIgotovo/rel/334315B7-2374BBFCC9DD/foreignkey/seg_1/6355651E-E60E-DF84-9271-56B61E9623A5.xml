@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6355651E-E60E-DF84-9271-56B61E9623A5" name="TABLE_119_EVENTS_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-12-17 21:01:21 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>83D27B90-45C8-E81C-0EA7-7CAA2817E635</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A424731D-9394-AB61-EFEB-ABAD6571E47F</localFKIndex>
+<keyObject>C2CD394A-A998-7DCA-C1AD-920EB5CFA62D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

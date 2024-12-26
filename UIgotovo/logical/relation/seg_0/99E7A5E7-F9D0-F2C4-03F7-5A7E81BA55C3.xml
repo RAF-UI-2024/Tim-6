@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACCOUNT BONUS BONUS FK" directorySegmentName="seg_0" id="99E7A5E7-F9D0-F2C4-03F7-5A7E81BA55C3">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 18:39:16 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<engineerTo>
+<item key="334315B7-3447-93BB-EFF7-2374BBFCC9DD" value="true"/>
+</engineerTo>
+<sourcePk>4A0A7EA1-CBFB-27CC-7DD6-5EBC536F0C5C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E9CB045-DF39-8BB0-D5B5-1C375AFA2FC2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31306589-4FA4-E1D1-0FAF-F2E31E36BAAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

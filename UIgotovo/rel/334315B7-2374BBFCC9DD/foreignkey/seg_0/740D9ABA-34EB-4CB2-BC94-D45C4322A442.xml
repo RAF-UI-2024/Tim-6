@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="740D9ABA-34EB-4CB2-BC94-D45C4322A442" name="DRIVERS_LICENSE_DOCUMENT_FK">
+<createdBy>tijan</createdBy>
+<createdTime>2024-10-13 19:57:44 UTC</createdTime>
+<generatorID>CC53501F-900E-A639-388B-03C3DAF94B6B</generatorID>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>01B1F3F3-762A-8D43-CE8D-F45AF01A2DEB</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>83D2840F-9A43-1879-AAED-92DD08D5AC4D</localFKIndex>
+<keyObject>F003CD3B-D6CD-96F0-8AE3-E06DB24AE721</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

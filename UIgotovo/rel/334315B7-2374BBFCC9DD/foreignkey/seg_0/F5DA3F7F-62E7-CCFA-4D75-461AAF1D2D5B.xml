@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5DA3F7F-62E7-CCFA-4D75-461AAF1D2D5B" name="COMPLAINTS_ACCOUNT_FK">
+<createdBy>Andjela</createdBy>
+<createdTime>2024-10-15 14:09:04 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<containerWithKeyObject>8AE3F26B-2156-9FFD-4423-27CDE854F47C</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5DD4ECF4-9B98-378A-4F48-159D4116D3D2</localFKIndex>
+<keyObject>13DB3659-D9DF-BFF0-3E91-C4E12B1026A4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

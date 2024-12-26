@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="9309E59E-77A0-19C0-C79D-FD92AA4E6FFB" name="PLAYER_HEALTH_METRICS">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:36:28 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="health_id" id="4CB2863A-81A1-62B1-F2B8-23C61C4FFE23">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:12 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_duration" id="8495B0E2-AD4A-7E5F-6314-FCDCF3635900">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:12 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="break_frequency" id="F639E992-4348-1548-527D-F2B22E0BABE2">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:12 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="average_bet_amount" id="202E51AC-3415-FA20-D6A8-B098D1FC4DCC">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:32 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alerts_issued" id="8E28A74E-13A7-F99C-90F1-013FFA96CF00">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:44 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="FB69F2E3-CC41-CC96-D616-6380FBE0E0FA">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:39:06 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FC7DE0F-99AC-A546-FB3D-4E28A3F39F03" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD7FC96A-304F-F251-256D-51D7671FD515" name="PLAYER_HEALTH_METRICS_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:38:12 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB2863A-81A1-62B1-F2B8-23C61C4FFE23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5558EE3-A268-7D9E-E321-3DDE23C46F92" name="PLAYER_HEALTH_METRICS_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:39:06 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB69F2E3-CC41-CC96-D616-6380FBE0E0FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

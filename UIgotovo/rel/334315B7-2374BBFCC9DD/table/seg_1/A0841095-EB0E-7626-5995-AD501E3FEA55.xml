@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A0841095-EB0E-7626-5995-AD501E3FEA55" name="PLAYER_SEGMENTATION">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:32:24 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="segment_id" id="C6EBD2FD-12D1-803D-7588-29C112B279E7">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:35:54 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segment_name" id="61FB9F77-7955-A90C-F57F-300ED6B680C1">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:35:54 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="criteria" id="CA01F60E-295A-FDFF-72CB-B8C9C5E647B4">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:35:54 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="51EB440D-ABE1-1CAD-D88B-E7642A38B74F">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:36:18 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1DE99B1-9B5B-8F6E-F35E-5305BBA05BAF" referredColumn="C8C4127C-0494-DA6A-D3F8-3C07E24DA3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FB7D7D2-4EEC-8DD0-2086-54E491A969BB" name="PLAYER_SEGMENTATION_PK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:35:54 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6EBD2FD-12D1-803D-7588-29C112B279E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="067252D4-F92E-D420-3E7E-AC9E7EFD3DFF" name="PLAYER_SEGMENTATION_ACCOUNT_FK">
+<createdBy>Andrej</createdBy>
+<createdTime>2024-12-26 21:36:25 UTC</createdTime>
+<ownerDesignName>UIgotovo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51EB440D-ABE1-1CAD-D88B-E7642A38B74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
